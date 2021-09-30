@@ -1,0 +1,32 @@
+.rectangle{
+    border-radius: 5px;
+    height: 40px;
+    width: 1400px;
+    background-color: #416c7a;
+
+  }
+
+  .group-6 {
+    height: 75px;
+    width: 126px;
+  }
+  .polygon-1 {
+    height: 60px;
+    width: 64px;
+  }
+  .text {
+    text-align: left;
+    vertical-align: top;
+    font-size: 13.5px;
+    font-family: Roboto;
+    line-height: auto;
+    color: #302367;
+  }
+  .ellipse-4-1 {
+    height: 37px;
+    width: 37px;
+  }
+  .ellipse-4-2 {
+    height: 31px;
+    width: 31px;
+  }
