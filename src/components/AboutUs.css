@@ -1,0 +1,17 @@
+.About{
+    margin: 20px;
+    padding: 50px;
+    display: flex;
+
+}
+.About__left{
+    border: 1px solid black;
+    position: absolute;
+width: 530.75px;
+height: 478px;
+
+}
+.About__right{
+    padding: 50px;
+    margin: 5px;
+}
