@@ -1,0 +1,20 @@
+.banner-img {
+	width: 100% !important;
+}
+.content-1 {
+	line-height: 2;
+	color: #233b42;
+}
+
+p {
+	font-size: 1.1rem;
+}
+
+.content-1-heading {
+	background-color: #ecf3f5;
+	color: #416d7a !important;
+}
+
+b {
+	color: #416d7a;
+}
