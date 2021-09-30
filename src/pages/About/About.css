@@ -1,4 +1,5 @@
 .banner-img {
+	margin-left: 85px;
 	width: 90% !important;
 }
 .content-1 {
@@ -17,4 +18,98 @@ p {
 
 b {
 	color: #416d7a;
+}
+
+.section-partition {
+	background-color: #416d7a;
+	width: 100%;
+	position: relative;
+	left: 10px;
+	height: 200px;
+}
+
+.first-line {
+	color: #ecf3f5 !important;
+	letter-spacing: 0.1rem;
+	font-size: 19px;
+}
+
+.second-line {
+	color: #fff;
+	font-size: 32px;
+	letter-spacing: 0.5rem;
+}
+
+.third-line {
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h1 {
+	display: flex;
+	flex-direction: row;
+	color: #416d7a;
+	width: 50%;
+}
+
+.special-background {
+	background: linear-gradient(
+		to bottom,
+		#ecf3f5,
+		#ecf3f5 50%,
+		#f5f9fa 50%,
+		#f5f9fa
+	);
+	background-size: 100% 75px;
+}
+
+.person-img {
+	box-shadow: 10px 10px 5px #ccc;
+}
+
+.quotation-text {
+	color: #5e747b !important;
+	line-height: 1.5 !important;
+	font-size: 1.7rem;
+	font-style: italic;
+	font-weight: 600;
+}
+
+.heading {
+	font-size: 100px;
+	color: #9fc1ca;
+	z-index: 100;
+}
+
+.dot-background {
+	position: relative;
+	top: 200px;
+	left: -30px;
+	z-index: -1;
+}
+
+.card-title {
+	font-size: 22px;
+	color: #416d7a;
+	font-weight: 600;
+}
+
+.card {
+	background-color: #eaf2f3 !important;
+	border: 0 !important;
+	box-shadow: 1px 10px 5px 0px rgba(128, 170, 183, 0.75);
+	-webkit-box-shadow: 1px 10px 5px 0px rgba(128, 170, 183, 0.75);
+	-moz-box-shadow: 1px 10px 5px 0px rgba(128, 170, 183, 0.75);
+}
+
+.card-text {
+	font-size: 14px;
+}
+
+.dot2 {
+	position: relative;
+	left: 70px;
+	top: -20px !important;
+	z-index: -1;
 }
