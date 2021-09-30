@@ -10,7 +10,11 @@ const About = () => {
 			<Navbar />
 			<div className="container-fluid mt-5 pt-5">
 				{/* <figure> */}
-				<img src={company} alt="company img" className="banner-img" />
+				<div className="row">
+					<div className="col-md-10 col-12 mx-auto">
+						<img src={company} alt="company img" className="banner-img" />
+					</div>
+				</div>
 				{/* </figure> */}
 
 				<div className="content-1 mt-5">
