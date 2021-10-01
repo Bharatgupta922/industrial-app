@@ -10,7 +10,6 @@ import formbg from "../../images/form-bg.png";
 const ContactUs = () => {
 	return (
 		<>
-			<Navbar />
 			<div className="container-fluid my-5">
 				<div className="row">
 					<div className="col-md-5 col-12 offset-md-1">

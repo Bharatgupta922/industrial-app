@@ -70,7 +70,7 @@ const LandingPage = () => {
                 <img src = {image12} alt = "research and development image" />
                 </div>
             </div>
-</div>
+        </div>
         </div>
     )
 };
