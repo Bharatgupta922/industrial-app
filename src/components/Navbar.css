@@ -7,6 +7,7 @@
 }
 
 .shadow-box {
+	background-color: rgba(255, 255, 255, 1);
 	box-shadow: -1px 10px 19px 0px rgba(65, 109, 122, 0.19);
 	-webkit-box-shadow: -1px 10px 19px 0px rgba(65, 109, 122, 0.19);
 	-moz-box-shadow: -1px 10px 19px 0px rgba(65, 109, 122, 0.19);
@@ -31,10 +32,6 @@
 .top-two > li:nth-child(2) {
 	padding-left: 70px;
 }
-
-/* .nav-item {
-	color: #343e41;
-} */
 
 ul {
 	list-style-type: none;

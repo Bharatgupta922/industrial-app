@@ -5,7 +5,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
 	return (
-		<div className="shadow-box">
+		<div className="shadow-box fixed-top">
 			<div className="wrapper">
 				<div className="rectangle">
 					<figure className="logo-box">

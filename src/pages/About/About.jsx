@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../../components/Navbar";
 import company from "../../images/about-company.png";
 import banner from "../../images/logo-banner.png";
 import person from "../../images/person.png";
@@ -8,7 +7,6 @@ import dot2 from "../../images/dot-2.png";
 import mission from "../../images/mission-bg.png";
 import "./About.css";
 import AboutCard from "../../components/AboutCard";
-import Footer from "../../components/Footer";
 
 const About = () => {
 	return (
