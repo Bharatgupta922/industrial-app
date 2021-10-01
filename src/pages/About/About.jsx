@@ -13,7 +13,6 @@ import Footer from "../../components/Footer";
 const About = () => {
 	return (
 		<>
-			<Navbar />
 			<div className="container-fluid mt-5 pt-5">
 				<div className="row">
 					<div className="col-md-10 col-12 mx-auto">
@@ -174,7 +173,6 @@ const About = () => {
 				</div>
 				{/* </div> */}
 			</div>
-			<Footer />
 		</>
 	);
 };

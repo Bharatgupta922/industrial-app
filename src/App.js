@@ -4,9 +4,20 @@ import ContactUs from "./pages/ContactUs/ContactUs";
 
 function App() {
 	return (
-		<>
-			<ContactUs />
-		</>
+		<Router>
+			<div className="app">
+				<Navbar />
+				<Switch>
+					<Route path="/" exact>
+						<LandingPage />
+					</Route>
+					<Route path="/about">
+						<About />
+					</Route>
+				</Switch>
+				<Footer />
+			</div>
+		</Router>
 	);
 }
 
