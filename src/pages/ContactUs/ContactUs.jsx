@@ -10,7 +10,7 @@ import formbg from "../../images/form-bg.png";
 const ContactUs = () => {
 	return (
 		<>
-			<div className="container-fluid my-5">
+			<div className="container-fluid my-5 overflow-hidden">
 				<div className="row">
 					<div className="col-md-5 col-12 offset-md-1">
 						<img src={dot1} alt="dot background" className="dot-1" />
@@ -35,7 +35,7 @@ const ContactUs = () => {
 					</div>
 				</div>
 			</div>
-			<div className="row mb-5 banner">
+			<div className="row mb-5 banner overflow-hidden">
 				<div className="col-2 offset-1">
 					<h1 className="city py-2 ">MUMBAI</h1>
 					<h1 className="city py-2 italic">BANGALORE</h1>

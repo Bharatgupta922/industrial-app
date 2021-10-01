@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 import "./Navbar.css";
 
@@ -22,16 +23,33 @@ const Navbar = () => {
 				<div className="group-6">
 					<ul className="outer-list">
 						<li className="nav-item">
-							<a>Home</a>
+							<Link style={{ textDecoration: "none", color: "#343e41" }} to="/">
+								Home
+							</Link>
 						</li>
 						<li className="nav-item">
-							<a>About Us</a>
+							<Link
+								style={{ textDecoration: "none", color: "#343e41" }}
+								to="/about"
+							>
+								About Us
+							</Link>
 						</li>
 						<li className="nav-item">
-							<a>Products</a>
+							<Link
+								style={{ textDecoration: "none", color: "#343e41" }}
+								to="/products"
+							>
+								Products
+							</Link>
 						</li>
 						<li className="nav-item">
-							<a>Contact Us </a>
+							<Link
+								style={{ textDecoration: "none", color: "#343e41" }}
+								to="contact"
+							>
+								Contact Us{" "}
+							</Link>
 						</li>
 					</ul>
 				</div>
