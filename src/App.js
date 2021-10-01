@@ -1,5 +1,10 @@
 import React from "react";
 import "./App.css";
+import About from "./pages/About/About";
+import LandingPage from "./components/LandingPage";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import ContactUs from "./pages/ContactUs/ContactUs";
 
 function App() {
@@ -13,6 +18,9 @@ function App() {
 					</Route>
 					<Route path="/about">
 						<About />
+					</Route>
+					<Route path="/contact">
+						<ContactUs />
 					</Route>
 				</Switch>
 				<Footer />
