@@ -2,7 +2,15 @@
 	width: 95%;
 	margin: 0 auto;
 	color: #233b42;
+	height: 100px;
 	font-weight: 600;
+}
+
+.shadow-box {
+	/* background-color: blue; */
+	box-shadow: -1px 10px 19px 0px rgba(65, 109, 122, 0.19);
+	-webkit-box-shadow: -1px 10px 19px 0px rgba(65, 109, 122, 0.19);
+	-moz-box-shadow: -1px 10px 19px 0px rgba(65, 109, 122, 0.19);
 }
 
 .rectangle {

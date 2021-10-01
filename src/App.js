@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import About from "./pages/About/About";
+import ContactUs from "./pages/ContactUs/ContactUs";
 
 function App() {
 	return (
 		<>
-			<About />
+			<ContactUs />
 		</>
 	);
 }

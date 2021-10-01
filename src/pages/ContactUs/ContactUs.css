@@ -1,0 +1,82 @@
+.dot-1 {
+	position: relative;
+	z-index: -1;
+	top: 7rem;
+	left: -10rem;
+}
+
+.heading {
+	letter-spacing: 0.2rem;
+	font-weight: 650;
+	font-size: 60px;
+	color: #416d7a;
+}
+
+.headquarters {
+	color: #9fc1ca;
+	font-size: 48px !important;
+	font-weight: 600 !important;
+	letter-spacing: 4px;
+}
+
+.head-address {
+	font-size: 32px;
+	letter-spacing: 4px;
+	color: #233b42;
+	font-weight: 600 !important;
+}
+
+.base-address {
+	font-size: 22px;
+	color: #233b42;
+	font-weight: 400 !important;
+}
+
+.sub-heading {
+	letter-spacing: 2px;
+	font-weight: 600 !important;
+}
+
+.iframe-map {
+	box-shadow: 18px 17px 5px -5px rgba(65, 109, 122, 0.49);
+	-webkit-box-shadow: 18px 17px 5px -5px rgba(65, 109, 122, 0.49);
+	-moz-box-shadow: 18px 17px 5px -5px rgba(65, 109, 122, 0.49);
+}
+
+.dot2 {
+	position: relative;
+	top: 280px;
+	left: -10px;
+	z-index: -1;
+}
+
+.banner {
+	background-color: #ecf3f5;
+}
+
+.city {
+	font-size: 32px !important ;
+	color: #233b42;
+}
+
+.italic {
+	color: #80aab7;
+	font-style: italic;
+}
+
+.banner-right-text {
+	font-size: 22px;
+	color: #3f5055;
+}
+
+.banner-img {
+	width: 100%;
+	height: 75%;
+}
+
+.get-in-touch {
+	font-size: 50px;
+	font-weight: bold;
+	color: #416d7a;
+	font-weight: 600;
+}
