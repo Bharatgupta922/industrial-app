@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import image1 from "./../images/FooterLogo.jpg";
+import {Link} from "react-router-dom";
+
 const Footer = () => {
 	return (
 		<footer class="webintern-footer footer">
@@ -27,16 +29,24 @@ const Footer = () => {
 							</h4>
 							<ul class="webintern-footer-list offices">
 								<li>
-									<a href="#">Home</a>
+									<Link to = "/">
+									<a>Home</a>
+									</Link>
 								</li>
 								<li>
-									<a href="#">About Us</a>
+									<Link to="/about">
+									<a>About Us</a>
+									</Link>
 								</li>
 								<li>
-									<a href="#"> Products </a>
+									<Link to="/products">
+									<a> Products </a>
+									</Link>
 								</li>
 								<li>
-									<a href="#">Contact Us</a>
+									<Link to="/contact">
+									<a>Contact Us</a>
+									</Link>
 								</li>
 							</ul>
 							<br />

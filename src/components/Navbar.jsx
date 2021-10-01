@@ -9,7 +9,9 @@ const Navbar = () => {
 			<div className="wrapper">
 				<div className="rectangle">
 					<figure className="logo-box">
-						<img src={logo} alt="Logo" />
+						<Link to="/">
+							<img src={logo} alt="Logo" />
+						</Link>
 					</figure>
 					<ul className="top-two">
 						<li>
