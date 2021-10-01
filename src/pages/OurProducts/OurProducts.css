@@ -1,0 +1,12 @@
+.waste__water__treatment__section{
+    background-color:#9FC1CA;
+    text-align: center;
+    margin: 50px 0 50px 0;
+    
+}
+.waste__water__treatment__section>h2{
+    margin: 50px auto !important;
+}
+.waste__water{
+    display: flex;
+}
