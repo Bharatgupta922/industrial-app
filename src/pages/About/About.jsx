@@ -69,25 +69,27 @@ const About = () => {
 						</div>
 					</div>
 				</div>
-				<div className="row section-partition">
-					<div className="col-md-10 col-12 mx-auto my-2">
-						<div className="row">
-							<div className="col-md-7 col-6 my-4 py-2">
-								<p className="text-center">
-									<span className="first-line"> We are ASSOCIATED with </span>{" "}
-									<br /> <span className="second-line"> METSA</span> <br />{" "}
-									<span className="third-line">
-										{" "}
-										for dyeing machineries and Technical Services.
-									</span>
-								</p>
-							</div>
-							<div className="col-md-5 col-6 mt-4">
-								<img src={banner} alt="logo banner" />
-							</div>
+			</div>
+			<div className="row section-partition">
+				<div className="col-md-10 col-12 mx-auto my-2">
+					<div className="row">
+						<div className="col-md-7 col-12 my-4 py-2">
+							<p className="text-center">
+								<span className="first-line"> We are ASSOCIATED with </span>{" "}
+								<br /> <span className="second-line"> METSA</span> <br />{" "}
+								<span className="third-line">
+									{" "}
+									for dyeing machineries and Technical Services.
+								</span>
+							</p>
+						</div>
+						<div className="col-md-5 col-12 mt-4">
+							<img src={banner} alt="logo banner" />
 						</div>
 					</div>
 				</div>
+			</div>
+			<div className="container-fluid">
 				<div className="row mt-5">
 					<div className="col-md-4 col-12 offset-md-4 d-flex justify-content-center my-5">
 						<div
@@ -131,7 +133,7 @@ const About = () => {
 					</div>
 				</div>
 				<div className="container">
-					<div class="row row-cols-2 row-cols-md-3 offset-md-1 g-5">
+					<div class="row row-cols-1 row-cols-md-3 offset-md-1 g-5">
 						<AboutCard />
 					</div>
 					<div className="col-md-2 offset-md-10 dot2">
@@ -145,7 +147,7 @@ const About = () => {
 								flex: "1 1",
 								borderBottom: "4px solid #9fc1ca",
 								margin: "auto",
-								marginRight: "40px",
+								marginRight: "3rem",
 							}}
 						></div>
 						<h1>Our Mission</h1>
@@ -154,7 +156,7 @@ const About = () => {
 								flex: "1 1",
 								borderBottom: "4px solid #9fc1ca",
 								margin: "auto",
-								marginLeft: "-80px",
+								marginLeft: "-4rem",
 							}}
 						></div>
 					</div>
@@ -173,8 +175,9 @@ const About = () => {
 						<img src={mission} alt="" className="person-img" />
 					</div>
 				</div>
-				<Footer />
+				{/* </div> */}
 			</div>
+			<Footer />
 		</>
 	);
 };
