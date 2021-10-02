@@ -33,7 +33,7 @@ h1 > span {
     font-family: Nunito Sans;
 font-style: normal;
 }
-.explore__button > button{
+.explore__button{
     margin: 10px auto ;
     background: #416D7A;
     border-radius: 5px;

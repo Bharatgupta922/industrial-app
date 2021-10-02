@@ -24,7 +24,7 @@ import icon6 from "./../../images/TechnicalServicesIcon/icon6.png";
 import icon7 from "./../../images/TechnicalServicesIcon/icon7.png";
 import icon8 from "./../../images/TechnicalServicesIcon/icon8.png";
 import icon9 from "./../../images/TechnicalServicesIcon/icon9.png";
-
+import {Link} from "react-router-dom";
 const OurProducts = () => {
 
 
@@ -165,8 +165,10 @@ const OurProducts = () => {
                                 <div className="row">
                                 <img src={image14} alt="water treating plant"/>
                                 </div>
-                                <div className="row explore__button">
-                                <button>Explore more</button>
+                                <div className="row">
+                                    <Link to = "/explore">
+                                        <button className="explore__button">Explore more</button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import OurProducts from "./pages/OurProducts/OurProducts";
-
+import Explore from "./pages/OurProducts/Explore";
 function App() {
 
 
@@ -27,6 +27,9 @@ function App() {
           </Route> 
           <Route path = "/products">
             <OurProducts />
+          </Route>
+		  <Route path = "/explore">
+            <Explore />
           </Route>
 				</Switch>
 				<Footer />
