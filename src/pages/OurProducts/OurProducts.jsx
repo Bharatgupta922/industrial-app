@@ -30,9 +30,9 @@ const OurProducts = () => {
 
     return (
         <div className="ourproducts">
-            <div className="container">
-                <div className="row heading">
-                    <div className="col-sm "><h1>Our Products</h1></div>
+            <div className="container heading">
+                <div className="row">
+                    <div className="col-sm "><h1> <span>Our</span> Products</h1></div>
                     <div className="col-sm"><p>high-quality chemicals for textile industry, backed by a century of expertise.</p></div>
                 </div>
             </div>
@@ -147,7 +147,7 @@ const OurProducts = () => {
             </div>
             <div className = "waste__water__treatment__section">
                 <p>Learn about our</p>
-                <h1>Waste Water Treatment</h1>
+                <p className="caption">Waste Water Treatment</p>
                 <p>(CETP/ETP/STP)</p>
 
                 <div className="waste__water">

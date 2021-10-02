@@ -2,8 +2,16 @@
     background-color: #ECF3F5;
 }
 .heading {
-    margin-top: 50px;
+    margin-top: 50px !important;
     padding: 10px;
+    margin-left: 50px;
+}
+h1 > span {
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+    
 }
 .waste__water__treatment__section{
     background-color:#9FC1CA;
@@ -12,9 +20,11 @@
     padding: 50px;
     
 }
-.waste__water__treatment__section>h1{
+.waste__water__treatment__section> .caption{
     margin: 30px auto !important;
     color: #233B42;
+    font-size: 50px;
+    font-weight: bold;
 }
 .points{
     margin-top: 50px;
