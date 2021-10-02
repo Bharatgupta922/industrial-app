@@ -1,4 +1,4 @@
-import React from "react";
+import React , {useState ,useEffect} from "react";
 import "./App.css";
 import About from "./pages/About/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -9,6 +9,8 @@ import OurProducts from "./pages/OurProducts/OurProducts";
 import Home from "./pages/Home/Home";
 
 function App() {
+
+
 	return (
 		<Router>
 			<div className="app">

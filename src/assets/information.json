@@ -1,0 +1,113 @@
+{
+    "products": {
+        "productsCategory":[
+            {
+                "name":"Wetting Detergent & emulsifiers",
+                "noOfProducts":"15",
+                "image":"image1.png"
+            },
+            {
+                "name":"Levelling Agent",
+                "noOfProducts":"12",
+                "image":"image2.png"
+            },
+            {
+                "name":"Washing Off / Soaping Agent",
+                "noOfProducts":"5",
+                "image":"image3.png"
+            },
+            {
+                "name":"Finishing Agents",
+                "noOfProducts":"9",
+                "image":"image4.png"
+            },
+            {
+                "name":"Substitute",
+                "noOfProducts":"4",
+                "image":"image5.png"
+            },
+            {
+                "name":"Printing Series",
+                "noOfProducts":"15",
+                "image":"image6.png"
+            },
+            {
+                "name":"Knitting",
+                "noOfProducts":"2",
+                "image":"image7.png"
+            },
+            {
+                "name":"Sequestering Agents",
+                "noOfProducts":"3",
+                "image":"image8.png"
+            },
+            {
+                "name":"Lubricants / Anti-crease",
+                "noOfProducts":"2",
+                "image":"image9.png"
+            },
+            {
+                "name":"Fixing Agent",
+                "noOfProducts":"3",
+                "image":"image10.png"
+            },
+            {
+                "name":"Enzymes",
+                "noOfProducts":"4",
+                "image":"image11.png"
+            },
+            {
+                "name":"Speciality Chemicals",
+                "noOfProducts":"6",
+                "image":"image12.png"
+            },
+            {
+                "name":"Spinning",
+                "noOfProducts":"4",
+                "image":"image13.png"
+            }
+        ]
+    },
+    "Technical":{
+        "TechnicalServices":[
+            {
+                "icon":"./../images/TechnicalServicesIcon/icon1.png",
+                "description":"Shop floor investigation for any kind of problems in the process house"
+            },
+            {
+                "icon":"./../images/TechnicalServicesIcon/icon2.png",
+                "description":"Problem of inconsistent fabric quality and conservation of water in a wet processing unit"
+            },
+            {
+                "icon":"./../images/TechnicalServicesIcon/icon3.png",
+                "description":"Cost saving studies in a modern process house"
+            },
+            {
+                "icon":"./../images/TechnicalServicesIcon/icon4.png",
+                "description":"Machinery maintenance audit in a modern process house to improve fabric quality"
+            },
+            {
+                "icon":"./../images/TechnicalServicesIcon/icon5.png",
+                "description":"Maintenance practices and stores consumption based on present processing machinery"
+            },
+            {
+                "icon":"./../images/TechnicalServicesIcon/icon6.png",
+                "description":"Technical training for operators "
+            },
+            {
+                "icon":"./../images/TechnicalServicesIcon/icon7.png",
+                "description":"SOP preparation"
+            },
+            {
+                "icon":"./../images/TechnicalServicesIcon/icon8.png",
+                "description":"Online Process control and water conservation audit in a process house"
+            },
+            {
+                "icon":"./../images/TechnicalServicesIcon/icon9.png",
+                "description":"Process house audit for detailed shop-floor studies "
+            }
+        ]
+    }
+
+    
+}
