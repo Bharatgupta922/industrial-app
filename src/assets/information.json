@@ -4,67 +4,67 @@
             {
                 "name":"Wetting Detergent & emulsifiers",
                 "noOfProducts":"15",
-                "image":"./../images/products/image1.png"
+                "image":"image1.png"
             },
             {
                 "name":"Levelling Agent",
                 "noOfProducts":"12",
-                "image":"./../images/products/image2.png"
+                "image":"image2.png"
             },
             {
                 "name":"Washing Off / Soaping Agent",
                 "noOfProducts":"5",
-                "image":"./../images/products/image3.png"
+                "image":"image3.png"
             },
             {
                 "name":"Finishing Agents",
                 "noOfProducts":"9",
-                "image":"./../images/products/image4.png"
+                "image":"image4.png"
             },
             {
                 "name":"Substitute",
                 "noOfProducts":"4",
-                "image":"./../images/products/image5.png"
+                "image":"image5.png"
             },
             {
                 "name":"Printing Series",
                 "noOfProducts":"15",
-                "image":"./../images/products/image6.png"
+                "image":"image6.png"
             },
             {
                 "name":"Knitting",
                 "noOfProducts":"2",
-                "image":"./../images/products/image7.png"
+                "image":"image7.png"
             },
             {
                 "name":"Sequestering Agents",
                 "noOfProducts":"3",
-                "image":"./../images/products/image8.png"
+                "image":"image8.png"
             },
             {
                 "name":"Lubricants / Anti-crease",
                 "noOfProducts":"2",
-                "image":"./../images/products/image9.png"
+                "image":"image9.png"
             },
             {
                 "name":"Fixing Agent",
                 "noOfProducts":"3",
-                "image":"./../images/products/image10.png"
+                "image":"image10.png"
             },
             {
                 "name":"Enzymes",
                 "noOfProducts":"4",
-                "image":"./../images/products/image11.png"
+                "image":"image11.png"
             },
             {
                 "name":"Speciality Chemicals",
                 "noOfProducts":"6",
-                "image":"./../images/products/image12.png"
+                "image":"image12.png"
             },
             {
                 "name":"Spinning",
                 "noOfProducts":"4",
-                "image":"./../images/products/image13.png"
+                "image":"image13.png"
             }
         ]
     },
@@ -108,6 +108,6 @@
             }
         ]
     }
-    
+
     
 }

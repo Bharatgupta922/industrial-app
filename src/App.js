@@ -1,4 +1,4 @@
-import React from "react";
+import React , {useState ,useEffect} from "react";
 import "./App.css";
 import About from "./pages/About/About";
 import LandingPage from "./components/LandingPage";
@@ -9,6 +9,8 @@ import ContactUs from "./pages/ContactUs/ContactUs";
 import OurProducts from "./pages/OurProducts/OurProducts";
 
 function App() {
+
+
 	return (
 		<Router>
 			<div className="app">

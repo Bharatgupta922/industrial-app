@@ -1,12 +1,85 @@
+.ourproducts{
+    background-color: #ECF3F5;
+}
+.heading {
+    margin-top: 50px;
+    padding: 10px;
+}
 .waste__water__treatment__section{
     background-color:#9FC1CA;
     text-align: center;
     margin: 50px 0 50px 0;
+    padding: 50px;
     
 }
-.waste__water__treatment__section>h2{
-    margin: 50px auto !important;
+.waste__water__treatment__section>h1{
+    margin: 30px auto !important;
+    color: #233B42;
 }
-.waste__water{
+.points{
+    margin-top: 50px;
+    text-align: left;
+    color: #233B42;
+    font-family: Nunito Sans;
+font-style: normal;
+}
+.explore__button > button{
+    margin: 10px auto ;
+    background: #416D7A;
+    border-radius: 5px;
+    width: 100%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Technical__services{
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 68px;
+color: #416D7A;
+text-align: center;
+background-color: #ECF3F5;
+}
+.Technical__services > .container > .row > div{
     display: flex;
 }
+.Technical__services__logos> img{
+    padding: 50px;
+}
+.Technical__services > .container > .row > div > p{
+    padding: 10px;
+    margin-top:51px;
+    line-height: 19px;
+}
+.heading__main{
+    display:flex;
+    margin:100px auto;
+}
+.list__of__products{
+    margin-left: 50px;
+}
+
+.package{
+    display:flex;
+}
+.package > img {
+padding: 20px;
+}
+.package > .package__description{
+margin-top: 15px;
+    font-family: Nunito Sans;
+padding: 20px;
+line-height: 1px;
+color: #233B42;
+}
+
+.package__description > p{
+    font-size: 16px;
+    color: #80AAB7;
+}   
