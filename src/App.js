@@ -1,4 +1,4 @@
-import React , {useState ,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import About from "./pages/About/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -6,11 +6,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import OurProducts from "./pages/OurProducts/OurProducts";
-import Home from "./pages/Home/Home";
-
+import Explore from "./pages/OurProducts/Explore";
 function App() {
-
-
 	return (
 		<Router>
 			<div className="app">
@@ -27,6 +24,9 @@ function App() {
 					</Route>
 					<Route path="/products">
 						<OurProducts />
+					</Route>
+					<Route path="/explore">
+						<Explore />
 					</Route>
 				</Switch>
 				<Footer />
