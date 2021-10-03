@@ -1,7 +1,6 @@
 import React from "react";
 import image14 from "./../../images/waste_treatment_plant.png";
 import "./OurProducts.css";
-import data from "./../../assets/information.json";
 import image1 from "./../../images/products/image1.png";
 import image2 from "./../../images/products/image2.png";
 import image3 from "./../../images/products/image3.png";

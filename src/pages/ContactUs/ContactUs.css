@@ -1,3 +1,22 @@
+.visit-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	width: 100%;
+	padding: 40px;
+}
+
+.visit-text {
+	width: 40% !important;
+	/* border: 1px solid red; */
+}
+
+.visit-map {
+	width: 45% !important;
+	padding-top: 100px;
+	/* border: 1px solid blue; */
+}
+
 .dot-1 {
 	position: relative;
 	z-index: -1;
@@ -38,6 +57,7 @@
 }
 
 .iframe-map {
+	width: 100%;
 	box-shadow: 18px 17px 5px -5px rgba(65, 109, 122, 0.49);
 	-webkit-box-shadow: 18px 17px 5px -5px rgba(65, 109, 122, 0.49);
 	-moz-box-shadow: 18px 17px 5px -5px rgba(65, 109, 122, 0.49);
@@ -46,16 +66,46 @@
 .dot2 {
 	position: relative;
 	top: 280px;
-	left: -10px;
+	left: 85%;
 	z-index: -1;
 }
 
 .banner {
 	background-color: #ecf3f5;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	/* box-sizing: border-box; */
+}
+
+.banner-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 50% !important;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+
+.banner-cities {
+	width: 40%;
+	padding: 20px;
+}
+
+.banner-address {
+	text-align: end;
+	width: 60%;
+	padding: 20px;
+}
+
+.banner-img-container {
+	width: 40% !important;
 }
 
 .city {
-	font-size: 32px !important ;
+	font-size: 32px;
 	color: #233b42;
 }
 
@@ -70,8 +120,7 @@
 }
 
 .banner-img {
-	width: 100%;
-	height: 75%;
+	width: 100% !important;
 }
 
 .get-in-touch {
@@ -79,4 +128,100 @@
 	font-weight: bold;
 	color: #416d7a;
 	font-weight: 600;
+}
+
+.getInTouchForm {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.getInTouchForm div img {
+	width: 100%;
+}
+
+@media only screen and (max-width: 950px) {
+	.banner {
+		flex-direction: column;
+	}
+	.banner-top {
+		width: 100% !important;
+		justify-content: space-around;
+	}
+	.banner-img-container {
+		width: 100% !important;
+	}
+	.banner-img {
+		width: 100%;
+	}
+	.heading {
+		font-size: 40px !important;
+	}
+
+	.headquarters {
+		font-size: 38px !important;
+	}
+
+	.head-address {
+		font-size: 26px;
+	}
+
+	.base-address {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.visit-container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.visit-text {
+		width: 60%;
+	}
+
+	.visit-map {
+		width: 80% !important;
+		padding-top: 30px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.city {
+		font-size: 22px !important;
+	}
+	.banner-right-text {
+		font-size: 16px;
+	}
+	.base-address {
+		font-size: 18px;
+	}
+	.heading {
+		font-size: 30px !important;
+	}
+
+	.headquarters {
+		font-size: 28px !important;
+	}
+
+	.head-address {
+		font-size: 26px;
+	}
+
+	.base-address {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.city {
+		font-size: 18px !important;
+	}
+	.banner-right-text {
+		font-size: 12px;
+	}
+	.base-address {
+		font-size: 14px;
+	}
 }

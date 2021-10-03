@@ -11,15 +11,15 @@ import AboutCard from "../../components/AboutCard";
 const About = () => {
 	return (
 		<>
-			<div className="container-fluid mt-5 pt-5">
-				<div className="row">
+			<div className="container-fluid mt-5 pt-5 overflow-hidden">
+				<div className="row g-0">
 					<div className="col-12 hero-banner d-flex align-items-center justify-content-center">
 						<img src={company} alt="company img" className="banner-img" />
 					</div>
 				</div>
 
 				<div className="content-1 mt-5">
-					<div className="row">
+					<div className="row g-0">
 						<div className="col-md-6 col-12 mx-auto">
 							<p className="text-center">
 								<b>New Era Global</b> is an organisation of people who has
@@ -33,7 +33,7 @@ const About = () => {
 							</p>
 						</div>
 					</div>
-					<div className="row">
+					<div className="row g-0">
 						<div className="col-md-6 col-12 mx-auto my-5 p-3 content-1-heading">
 							<h3 className="text-center">
 								In today's market we follow the concept of One-stop solutions
@@ -41,16 +41,16 @@ const About = () => {
 							</h3>
 						</div>
 					</div>
-					<div className="row">
+					<div className="row g-0">
 						<div className="col-md-6 col-12 mx-auto mb-5">
-							<p className="text-center mb-3">
+							<p className="text-center mb-3 p-4">
 								<b>New Era Global</b> is a strategic textile solution provider
 								company that produces a broad range of ecofriendly products and
 								speciality products for textile wet processing industry, with
 								the purpose of enhancing the quality of life in optimistic way,
 								we work with customers to deliver innovative products and
 								solutions while maintaining a commitment to safety and
-								sustainability. The company's customer oriented growth model
+								sustainability. The company's customer oriented grow th model
 								takes advantage of world-class technology platforms,
 								distinguished application development and deep customer
 								engagement to grow its leading positions in textile industry.
@@ -64,33 +64,35 @@ const About = () => {
 					</div>
 				</div>
 			</div>
-			<div className="row section-partition">
+			<div className="row g-0 section-partition">
 				{/* <div className="col-12 mx-auto my-2">
-					<div className="row d-flex justify-content-center "> */}
+					<div className="row g-0 d-flex justify-content-center "> */}
 				<div className="col-md-12 col-lg-7 col-12 my-4 py-2">
-					<p className="text-center">
+					<p className="text-center mt-3 align-middle p-0">
 						<span className="first-line"> We are ASSOCIATED with </span> <br />{" "}
 						<span className="second-line"> METSA</span> <br />{" "}
-						<span className="third-line">
-							{" "}
-							for dyeing machineries and Technical Services.
-						</span>
+						<span className="third-line">for dyeing machineries and Technical Services.</span>
 					</p>
 				</div>
-				<div className="col-md-12 col-lg-5 col-11 offset-0 mt-4 logo-banner  d-flex justify-content-center align-items-center ">
+				<div className="col-md-12 col-lg-5 col-12 offset-0 logo-banner d-flex justify-content-center align-items-center ">
 					<img src={banner} alt="logo banner" />
 				</div>
 				{/* </div>
 				</div> */}
 			</div>
-			<div className="container-fluid check-small">
-				<div className="row mt-5">
-					<div className="col-md-4 col-12 offset-md-4 d-flex justify-content-center my-5">
+			<div className="container-fluid p-0">
+				<div className="row g-0">
+					<div className="col-md-6 col-12 mx-auto my-5 text-center mb-0">
 						<h1 className="heading-about">Our Vision</h1>
 					</div>
 				</div>
-				<div className="row justify-content-center mt-2 special-background">
-					<div className="col-md-4 col-10 order-md-0 order-0 py-5 offset-md-0 offset-2">
+				<div className="row g-0 mb-5" style={{transform:"rotate(180deg)"}}>"
+					<div className="col-12 text-center">
+						<span className="heading-1">______</span>
+					</div>
+				</div>
+				<div className="row g-0 justify-content-center align-items-center mt-2 special-background">
+					<div className="col-md-4 col-sm-12 col-8 m-5">
 						<img src={person} alt="" className="person-img" />
 					</div>
 					<div className="quotation-text col-md-6 col-12 order-md-1 order-1 d-flex align-items-center">
@@ -102,28 +104,34 @@ const About = () => {
 						</span>
 					</div>
 				</div>
-				<div className="row">
-					<div className="col-md-6 col-12 offset-md-3 mx-auto">
+				<div className="row g-0">
+					<div className="col-md-8 col-12 px-5" >
 						<div className="dot-background">
 							<img src={dot} alt="" />
 						</div>
 						<span className="heading">OUR VALUES</span>
 					</div>
+					
 				</div>
-				<div className="container">
-					<div class="row row-cols-1 row-cols-md-3 offset-md-1 g-5">
+				<div className="container g-0">
+					<div class="row g-0 row-cols-1 row-cols-md-3 g-5 valuesCards">
 						<AboutCard />
 					</div>
-					<div className="col-md-2 offset-md-10 dot2">
+					<div className="col-md-2 dot2">
 						<img src={dot2} alt="" />
 					</div>
 				</div>
-				<div className="row mt-5">
-					<div className="col-md-4 col-12 offset-md-4 d-flex justify-content-center my-5">
+				<div className="row g-0 mt-5">
+					<div className="col-md-6 col-12 mx-auto d-flex justify-content-center my-5 mb-0">
 						<h1 className="heading-about">Our Mission</h1>
 					</div>
+					<div className="row g-0 mb-5"  style={{transform:"rotate(180deg)"}}>
+					<div className="col-12 text-center">
+						<span className="heading-1">______</span>
+					</div>
 				</div>
-				<div className="row justify-content-center mt-2 mb-5 pb-3 special-background">
+				</div>
+				<div className="row g-0 d-flex align-items-center justify-content-center mt-2 mb-5 pb-3 special-background">
 					<div className="quotation-text col-md-6 col-12 offset-md-1 order-md-0 order-0 d-flex align-items-center">
 						<span className="text-center">
 							To produce, distribute, and sell the innovative quality chemicals
@@ -133,7 +141,7 @@ const About = () => {
 							and the environment.
 						</span>
 					</div>
-					<div className="col-md-4 col-10 offset-2 order-md-1 order-1 offset-md-1  p-5 ml-5">
+					<div className="col-md-4 col-10 offset-2 order-md-1 order-1 offset-md-1 ml-5 p-5">
 						<img src={mission} alt="" className="person-img" />
 					</div>
 				</div>
