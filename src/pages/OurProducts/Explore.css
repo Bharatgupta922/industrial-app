@@ -39,9 +39,9 @@
 	box-shadow: 1px 10px 5px 0px rgba(128, 170, 183, 0.75);
 	-webkit-box-shadow: 1px 10px 5px 0px rgba(128, 170, 183, 0.75);
 	-moz-box-shadow: 1px 10px 5px 0px rgba(128, 170, 183, 0.75);
-    border-left-color: #416D7A !important;
+    /* border-left-color: #416D7A !important;
     border-left-width: 0.5rem !important;
-    border-radius: 0.25rem !important;
+    border-radius: 0.25rem !important; */
 }
 
 .card-text {
@@ -59,10 +59,10 @@ color: #233B42;
 .card-body{
 padding: 7% !important;
 }
-p{
+/* p{
     margin: 7px !important;
     line-height: 0.1rem;
-}
+} */
 @media  (max-width :600px){
     .water-img{
         width: 400px;
