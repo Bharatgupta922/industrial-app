@@ -1,95 +1,97 @@
-.ourproducts{
-    background-color: #ECF3F5;
+.ourproducts {
+	background-color: #ecf3f5;
 }
 .heading {
-    margin-top: 50px !important;
-    padding: 10px;
-    margin-left: 50px;
+	margin-top: 50px !important;
+	padding: 10px;
+	margin-left: 50px;
 }
 h1 > span {
-    padding-bottom: 10px;
-    border-bottom-style: solid;
-    border-bottom-width: 3.1px;
-    width: fit-content;
-    
+	padding-bottom: 10px;
+	border-bottom-style: solid;
+	border-bottom-width: 3.1px;
+	width: fit-content;
 }
-.waste__water__treatment__section{
-    background-color:#9FC1CA;
-    text-align: center;
-    margin: 50px 0 50px 0;
-    padding: 50px;
-    
+.waste__water__treatment__section {
+	background-color: #9fc1ca;
+	text-align: center;
+	margin: 50px 0 50px 0;
+	padding: 50px;
 }
-.waste__water__treatment__section> .caption{
-    margin: 30px auto !important;
-    color: #233B42;
-    font-size: 50px;
-    font-weight: bold;
+.waste__water__treatment__section > .caption {
+	margin: 30px auto !important;
+	color: #233b42;
+	font-size: 50px;
+	font-weight: bold;
 }
-.points{
-    margin-top: 50px;
-    text-align: left;
-    color: #233B42;
-    font-family: Nunito Sans;
-font-style: normal;
+.points {
+	margin-top: 50px;
+	text-align: left;
+	color: #233b42;
+	font-family: Nunito Sans;
+	font-style: normal;
 }
-.explore__button{
-    margin: 10px auto ;
-    background: #416D7A;
-    border-radius: 5px;
-    width: 100%;
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-size: 20px;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
+.explore__button {
+	margin: 10px auto;
+	background: #416d7a;
+	border-radius: 5px;
+	width: 100%;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-size: 20px;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
 }
 
-.Technical__services{
-    font-family: Nunito Sans;
-font-style: normal;
-font-weight: 800;
-font-size: 50px;
-line-height: 68px;
-color: #416D7A;
-text-align: center;
-background-color: #ECF3F5;
+.Technical__services {
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 68px;
+	color: #416d7a;
+	text-align: center;
+	background-color: #ecf3f5;
 }
-.Technical__services > .container > .row > div{
-    display: flex;
+.Technical__services > .container > .row > div {
+	display: flex;
 }
-.Technical__services__logos> img{
-    padding: 50px;
+.Technical__services__logos {
+	width: 150px !important;
 }
-.Technical__services > .container > .row > div > p{
-    padding: 10px;
-    margin-top:51px;
-    line-height: 19px;
+.Technical__services__logos > img {
+	padding: 50px;
+	width: 100%;
 }
-.heading__main{
-    display:flex;
-    margin:100px auto;
+.Technical__services > .container > .row > div > p {
+	padding: 10px;
+	margin-top: 51px;
+	line-height: 19px;
 }
-.list__of__products{
-    margin-left: 50px;
+.heading__main {
+	display: flex;
+	margin: 100px auto;
+}
+.list__of__products {
+	margin-left: 50px;
 }
 
-.package{
-    display:flex;
+.package {
+	display: flex;
 }
 .package > img {
-padding: 20px;
+	padding: 20px;
 }
-.package > .package__description{
-margin-top: 15px;
-    font-family: Nunito Sans;
-padding: 20px;
-line-height: 1px;
-color: #233B42;
+.package > .package__description {
+	margin-top: 15px;
+	font-family: Nunito Sans;
+	padding: 20px;
+	line-height: 1px;
+	color: #233b42;
 }
 
-.package__description > p{
-    font-size: 16px;
-    color: #80AAB7;
-}   
+.package__description > p {
+	font-size: 16px;
+	color: #80aab7;
+}
