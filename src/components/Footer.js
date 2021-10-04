@@ -18,11 +18,6 @@ const Footer = () => {
 									alt="Simply Go Green"
 								/>
 							</figure>
-
-							{/* <div class="simple-text dark padding-sm">
-    <img className = "Footer__logo" src = {image1} alt = "Footer-Logo"/>
-<p>Totam rem aperiam, eaque ipsa quae ab illo inv ent ore veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab.</p>
-</div> */}
 							<div class="empty-space xs-25 sm-25"></div>
 						</div>
 						<div class="col-sm-4 col-md-2 footer-2">

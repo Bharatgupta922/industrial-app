@@ -11,6 +11,7 @@ import sus from "../images/sus-home.png";
 import inn from "../images/innovative.png";
 import rd from "../images/Research_Development.png";
 import { Link } from "react-router-dom";
+import Carousel from "./Carousel/Carousel";
 
 const LandingPage = () => {
 	const data = {
@@ -25,6 +26,7 @@ const LandingPage = () => {
 	};
 	return (
 		<>
+			<Carousel />
 			<div
 				className="container-fluid landingPage"
 				style={{ marginTop: "120px", padding: "0" }}
