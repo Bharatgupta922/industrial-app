@@ -1,21 +1,23 @@
 import React from "react";
 import "./Footer.css";
 import image1 from "./../images/FooterLogo.jpg";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
 	return (
 		<footer class="webintern-footer footer">
 			<div class="webintern-footer-inner">
-				<div class="container">
+				<div class="container-fluid px-5">
 					<div class="row">
 						<div class="col-sm-4 col-md-3 ">
-							<img
-								class="Footer__image"
-								src={image1}
-								style={{ width: "100px" }}
-								alt="Simply Go Green"
-							/>
+							<figure>
+								<img
+									class="Footer__image"
+									src={image1}
+									style={{ width: "200px" }}
+									alt="Simply Go Green"
+								/>
+							</figure>
 
 							{/* <div class="simple-text dark padding-sm">
     <img className = "Footer__logo" src = {image1} alt = "Footer-Logo"/>
@@ -29,23 +31,23 @@ const Footer = () => {
 							</h4>
 							<ul class="webintern-footer-list offices">
 								<li>
-									<Link to = "/">
-									<a>Home</a>
+									<Link style={{ textDecoration: "none" }} to="/">
+										Home
 									</Link>
 								</li>
 								<li>
-									<Link to="/about">
-									<a>About Us</a>
+									<Link style={{ textDecoration: "none" }} to="/about">
+										About Us
 									</Link>
 								</li>
 								<li>
-									<Link to="/products">
-									<a> Products </a>
+									<Link style={{ textDecoration: "none" }} to="/products">
+										Products
 									</Link>
 								</li>
 								<li>
-									<Link to="/contact">
-									<a>Contact Us</a>
+									<Link style={{ textDecoration: "none" }} to="/contact">
+										Contact Us
 									</Link>
 								</li>
 							</ul>
@@ -94,14 +96,6 @@ const Footer = () => {
 								<span>+91 161 291 3021</span>
 								<br />
 							</div>
-							{/* <ul class="webintern-footer-list" style={{lineHeight:"0.1rem"}}>
-<li><a href="#">Accounting</a></li>
-<li><a href="#">Dyeing Industry</a></li>
-<li><a href="#">Hosiery Industry</a></li>
-<li><a href="#">Production Management</a></li>
-<li><a href="#">Retail Management</a></li>
-<li><a href="#">Or Any customize software</a></li>
-</ul> */}
 
 							<div class="empty-space xs-25"></div>
 						</div>
