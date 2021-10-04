@@ -25,11 +25,14 @@
 	-webkit-box-shadow: -11px 1px 6px 1px rgba(128, 170, 183, 0.75);
 	-moz-box-shadow: -11px 1px 6px 1px rgba(128, 170, 183, 0.75);
 	background-color: rgba(128, 170, 183, 0.1);
+	display: flex;
+	align-items: center;
+	padding: 3rem;
 }
 
 .waste-heading {
 	padding: 10px;
-	font-size: 32px;
+	font-size: 30px;
 }
 
 .waste-body {
@@ -55,4 +58,163 @@
 
 .r-and-d {
 	font-size: 24px;
+}
+
+/* Responsiveness */
+
+.landingPage {
+	width: 100%;
+
+	margin: 0%;
+	padding: 0%;
+}
+
+.about {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.about div {
+	align-self: center;
+	width: 45%;
+}
+
+.row {
+	width: 100%;
+	margin: 0%;
+}
+
+.products img {
+	width: 100%;
+}
+
+.products div {
+	padding: 15px;
+}
+
+.special-background {
+	display: flex;
+	justify-content: space-around;
+}
+
+.special-background div {
+	height: 80%;
+}
+
+.special-background div img {
+	width: 65%;
+	height: auto;
+}
+
+.water_image {
+	width: 90%;
+}
+
+@media only screen and (max-width: 1200px) {
+	.about {
+		flex-direction: column;
+	}
+	.about div {
+		width: 100%;
+	}
+
+	.aboutImage {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 20px;
+	}
+
+	.r-and-d {
+		font-size: 20px;
+	}
+
+	.waste-body {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 755px) {
+	.special-background div {
+		margin: 25px 0;
+	}
+
+	.r-and-d {
+		padding: 0 30px;
+	}
+	.special-background div img {
+		width: 37% !important;
+		height: auto;
+	}
+	.research {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.research div img {
+		margin: 20px;
+	}
+
+	.waste-water-card {
+		margin-top: 20px;
+		box-shadow: 0px -11px 6px 1px rgba(128, 170, 183, 0.75);
+		-webkit-box-shadow: -0px -11px 6px 1px rgba(128, 170, 183, 0.75);
+		-moz-box-shadow: -0px -11px 6px 1px rgba(128, 170, 183, 0.75);
+	}
+
+	.waste-heading {
+		font-size: 28px;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.aboutImage img {
+		width: 85%;
+		height: auto;
+	}
+
+	.theory-1 {
+		font-size: 20px;
+	}
+	.waste-heading {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.special-background div img {
+		width: 50% !important;
+		height: auto;
+	}
+
+	.waste-heading {
+		font-size: 22px;
+	}
+
+	.waste-water-card {
+		padding: 15px !important;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.aboutImage img {
+		width: 95%;
+		height: auto;
+	}
+	.theory-1 {
+		font-size: 17px;
+	}
+	.waste-heading {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 260px) {
+	.waste-heading {
+		font-size: 15px;
+	}
 }

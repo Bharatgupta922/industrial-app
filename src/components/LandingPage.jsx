@@ -26,39 +26,40 @@ const LandingPage = () => {
 	return (
 		<>
 			<div
-				className="container-fluid"
-				style={{ marginTop: "120px", overflow: "hidden" }}
+				className="container-fluid landingPage"
+				style={{ marginTop: "120px", padding: "0" }}
 			>
-				<div className="row m-5 p-5">
-					<div className="col-md-5 col-12 offset-md-1">
+				<div className="row p-5 about">
+					<div className="col-md-5 col-12 aboutImage">
 						<img
 							src={image1}
 							alt="black_and_white"
 							className="circular__image"
-							style={{ height: "auto", width: "auto" }}
+							// style={{ height: "auto", width: "auto" }}
 						/>
 					</div>
-					<div className="col-md-4 col-12 text-start">
+					<div className="col-md-4 col-12 text-start aboutText">
 						<p className="theory-1">{data.theory_1}</p>
 						<p className="theory-1">{data.sub_1}</p>
 					</div>
 				</div>
-				<div className="row mt-5">
+				<div className="row g-0 mt-5">
 					<div className="col-12 text-center">
 						<span className="heading-1">Our Products</span>
 					</div>
 				</div>
-				<div className="row mb-5">
+				<div className="row g-0 mb-5" style={{ transform: "rotate(180deg)" }}>
 					<div className="col-12 text-center">
 						<span className="heading-1">______</span>
 					</div>
 				</div>
 
 				<div
-					className="row d-flex justify-content-center overflow-auto align-items-center"
+					className="row g-0 d-flex justify-content-center align-items-center products"
 					// style={{ overflowX: "true" }}
+					// style={{margin:"0"}}
 				>
-					<div className="col-3 offset-md-1 g-1">
+					<div className="col-3 g-1">
 						<img
 							src={image2}
 							alt="Levelling_agent"
@@ -80,29 +81,36 @@ const LandingPage = () => {
 						/>
 					</div>
 				</div>
-				<div className="row m-5 py-5">
+				<div className="row g-0 my-5 py-5">
 					<div className="col-12 text-center">
 						<span>
 							<button className="explore-btn">Explore More</button>
 						</span>
 					</div>
 				</div>
-				<div className="row">
-					<div className="col-12 text-center">
+				<div className="row g-0">
+					<div className="col-12 text-center" style={{ width: "100%" }}>
 						<span>
 							<img
 								src={image5}
 								alt="Waste Water TreatMent Plant"
 								className="art__water__treatment_plant"
+								style={{ width: "80%", height: "45vh" }}
 							/>
 						</span>
 					</div>
 				</div>
 				<div className="container mb-5">
-					<div className="row waste-water-card p-5">
+					<div className="row g-0 waste-water-card">
 						<div className="col-md-6 col-12 d-flex justify-content-center align-items-center flex-column ">
-							<span className="waste-heading">WASTE WATER TREATMENT</span>
-							<img src={image7} alt="water" className="water__image" />
+							<span className="waste-heading pb-2 pt-0 px-0 text-center">
+								WASTE WATER TREATMENT
+							</span>
+							<img
+								src={image7}
+								alt="water"
+								className="water__image col-10 mb-3"
+							/>
 						</div>
 						<div className="col-md-6 col-12 d-flex justify-content-start align-items-start flex-column">
 							<span className="waste-body mb-auto">{data.theory_2}</span>
@@ -114,31 +122,31 @@ const LandingPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="row mb-5 p-5 special-background">
-					<div className="col-md-3 col-12 offset-md-1 d-flex justify-content-center align-items-center flex-column">
+				<div className="row g-0 mb-5 p-5 special-background">
+					<div className="col-md-3 col-12 d-flex justify-content-center align-items-center flex-column">
 						<h2 className="special-text mb-5">CUSTOMER FOCUS</h2>
 						<img src={cf} alt="cf" />
 					</div>
-					<div className="col-md-3 col-12 offset-md-1 d-flex justify-content-center align-items-center flex-column">
+					<div className="col-md-3 col-12 d-flex justify-content-center align-items-center flex-column">
 						<h2 className="special-text mb-5">SUSTAINABLE</h2>
 						<img src={sus} alt="cf" />
 					</div>
-					<div className="col-md-3 col-12 offset-md-1 d-flex justify-content-start align-items-center flex-column">
+					<div className="col-md-3 col-12 d-flex justify-content-start align-items-center flex-column">
 						<h2 className="special-text mb-5">INNOVATIVE</h2>
 						<img src={inn} alt="cf" />
 					</div>
 				</div>
-				<div className="row mt-5">
+				<div className="row g-0 mt-5">
 					<div className="col-12 text-center">
 						<span className="heading-1">Research and Development</span>
 					</div>
 				</div>
-				<div className="row mb-5">
+				<div className="row g-0 mb-5" style={{ transform: "rotate(180deg)" }}>
 					<div className="col-12 text-center">
-						<span className="heading-1">______</span>
+						<span className="heading-1">________________</span>
 					</div>
 				</div>
-				<div className="row my-5">
+				<div className="row g-0 my-5 research">
 					<div className="col-md-4 col-12 offset-md-2 d-flex justify-content-start">
 						<span className="r-and-d">
 							Our main strength lies in our Research & Development, where our
@@ -152,7 +160,7 @@ const LandingPage = () => {
 							generated.
 						</span>
 					</div>
-					<div className="offset-md-1 col-md-4 col-12">
+					<div className="col-md-4 col-12 text-center">
 						<img src={rd} alt="research and development" />
 					</div>
 				</div>
