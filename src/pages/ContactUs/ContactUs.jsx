@@ -86,46 +86,43 @@ const ContactUs = () => {
 					</div>
 					<div className="col-md-5 col-8 mb-3">
 						<form>
-							<div class="form-group">
-								<label for="exampleInputEmail1">Email address</label>
+							<div class="form-group m-3">
+								<input
+									type="text"
+									class="form-control"
+									id="firstname"
+									placeholder="First Name"
+								/>
+							</div>
+							<div class="form-group m-3">
+								<input
+									type="text"
+									class="form-control"
+									id="lastname"
+									placeholder="Last Name"
+								/>
+							</div>
+							<div className="form-group m-3">
 								<input
 									type="email"
 									class="form-control"
-									id="exampleInputEmail1"
-									aria-describedby="emailHelp"
-									placeholder="Enter email"
+									id="email"
+									placeholder="What's your email?"
 								/>
-								<small id="emailHelp" class="form-text text-muted">
-									We'll never share your email with anyone else.
-								</small>
 							</div>
-							<div class="form-group">
-								<label for="exampleInputPassword1">Password</label>
-								<input
-									type="password"
+							<div className="form-group m-3">
+								<textarea
 									class="form-control"
-									id="exampleInputPassword1"
-									placeholder="Password"
-								/>
+									id="exampleFormControlTextarea1"
+									rows="3"
+									placeholder="Your questions"
+								></textarea>
 							</div>
-							<div class="form-group form-check">
-								<input
-									type="checkbox"
-									class="form-check-input"
-									id="exampleCheck1"
-								/>
-								<label class="form-check-label" for="exampleCheck1">
-									Check me out
-								</label>
+							<div className="form-group m-3">
+								<button type="submit">Send Message</button>
 							</div>
-							<button type="submit" class="btn btn-primary">
-								Submit
-							</button>
 						</form>
 					</div>
-					{/* <div className="col-md-5 col-12 offset-md-1 mt-5">
-						<img src={formbg} alt="" />
-					</div> */}
 				</div>
 			</div>
 		</>
