@@ -9,6 +9,7 @@ import Home from "./pages/Home/Home";
 import OurProducts from "./pages/OurProducts/OurProducts";
 import Explore from "./pages/OurProducts/Explore";
 import Dropdown from "./components/Dropdown";
+import Explaination from "./pages/OurProducts/Explaination";
 
 function App() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -33,6 +34,9 @@ function App() {
 				</Route>
 				<Route path="/explore">
 					<Explore />
+				</Route>
+				<Route path="/explaination">
+					<Explaination />
 				</Route>
 			</Switch>
 			<Footer />
