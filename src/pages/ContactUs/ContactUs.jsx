@@ -10,7 +10,7 @@ import formbg from "../../images/form-bg.png";
 const ContactUs = () => {
 	return (
 		<>
-			<div className="container-fluid my-5">
+			<div className="container-fluid my-5 ">
 				<div className="row g-0 visit-container">
 					<div className="visit-text">
 						<img src={dot1} alt="dot background" className="dot-1" />
@@ -107,7 +107,7 @@ const ContactUs = () => {
 									type="email"
 									class="form-control"
 									id="email"
-									placeholder="What's your email?"
+									placeholder="What's your email ?"
 								/>
 							</div>
 							<div className="form-group m-3">
@@ -115,7 +115,7 @@ const ContactUs = () => {
 									class="form-control"
 									id="exampleFormControlTextarea1"
 									rows="3"
-									placeholder="Your questions"
+									placeholder="Your questions ?"
 								></textarea>
 							</div>
 							<div className="form-group m-3">
