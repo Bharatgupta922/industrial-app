@@ -65,7 +65,7 @@
 
 .landingPage {
 	width: 100%;
-
+	overflow-x: hidden !important;
 	margin: 0%;
 	padding: 0%;
 }
@@ -75,6 +75,7 @@
 	width: 100%;
 	align-items: center;
 	justify-content: space-around;
+	margin-right: 0 !important;
 }
 
 .about div {
@@ -199,6 +200,21 @@
 	.waste-water-card {
 		padding: 15px !important;
 	}
+	.research div img {
+		margin-right: 0px;
+	}
+
+	/* .r-and-d-image {
+		width: 80%;
+		margin-right: 0;
+	} */
+}
+
+@media only screen and (max-width: 400px) {
+	.research div img {
+		margin-right: 0px;
+		width: 80%;
+	}
 }
 
 @media only screen and (max-width: 350px) {
@@ -211,6 +227,10 @@
 	}
 	.waste-heading {
 		font-size: 17px;
+	}
+	.research div img {
+		margin-right: 0px;
+		width: 60%;
 	}
 }
 

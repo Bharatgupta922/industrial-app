@@ -86,7 +86,7 @@ const LandingPage = () => {
 					<div className="col-12 text-center">
 						<span>
 							<Link to="/explore">
-							<button className="explore-btn">Explore More</button>
+								<button className="explore-btn">Explore More</button>
 							</Link>
 						</span>
 					</div>
