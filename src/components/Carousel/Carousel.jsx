@@ -1,12 +1,5 @@
 import React from "react";
-import {
-	Container,
-	SingleElement,
-	LinkWrapper,
-	Button,
-	Wrapper,
-	Heading,
-} from "./CarouselElements";
+import { Container, SingleElement, Wrapper, Heading } from "./CarouselElements";
 
 import c1 from "../../images/c1.png";
 import c2 from "../../images/c2.png";
@@ -86,12 +79,6 @@ const Carousel = () => {
 				<h1 className="landing-page-title">New Era Global</h1>
 				<h2>One-stop solution for all your needs</h2>
 			</Heading>
-			<LinkWrapper>
-				<Button as="a" href="#1" />
-				<Button as="a" href="#2" />
-				<Button as="a" href="#3" />
-				<Button as="a" href="#4" />
-			</LinkWrapper>
 		</Wrapper>
 	);
 };

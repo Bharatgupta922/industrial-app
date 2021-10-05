@@ -2,41 +2,40 @@
 	/* margin-left: 85px; */
 	width: 90% !important;
 }
-.heading{
-    font-size:larger;
-    font-weight: 200 !important;
-    text-align: center;
-    
+.heading {
+	font-size: larger;
+	font-weight: 200 !important;
+	text-align: center;
 }
-.products__table{
-    margin: 0 20px;
-    display: flex;
-    background-color: #CBE6ED;
-    border-bottom: #E5E5E5 solid 1px;
-    padding: 10px;
+.products__table {
+	margin: 0 20px;
+	display: flex;
+	background-color: #cbe6ed;
+	border-bottom: #e5e5e5 solid 1px;
+	padding: 10px;
 }
-.products__table__sno{
-    flex: 1;
+.products__table__sno {
+	flex: 1;
 }
-.products__table__product{
-    flex: 2;
+.products__table__product {
+	flex: 2;
 }
-.products__table__substrate{
-    flex: 2;
+.products__table__substrate {
+	flex: 2;
 }
-.products__table__description{
-    flex: 4;
+.products__table__description {
+	flex: 4;
 }
-.table__heading{
-    font-family:'Nunito Sans';
-    margin: 0 20px;
-    display: flex;
-    border-bottom: solid 1px #233B42;
-    background-color: #9FC1CA;
-    color: #233B42;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+.table__heading {
+	font-family: "Nunito Sans";
+	margin: 0 20px;
+	display: flex;
+	border-bottom: solid 1px #233b42;
+	background-color: #9fc1ca;
+	color: #233b42;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
-.table__package{
-    padding: 50px;
+.table__package {
+	padding: 50px;
 }

@@ -44,6 +44,7 @@ h1 {
 	font-weight: 500;
 	font-size: 2.7rem;
 	color: white !important;
+	margin: 0 !important;
 }
 
 h2 {
@@ -191,20 +192,24 @@ figure > img {
 	}
 }
 
-/* @keyframes carousel {
-	0% {
+@keyframes carousel {
+	0%,
+	23% {
 		transform: translateX(0);
 	}
-	25% {
-		transform: translateX(-100%);
+	25%,
+	48% {
+		transform: translateX(-100vw);
 	}
-	50% {
-		transform: translateX(-200%);
+	50%,
+	73% {
+		transform: translateX(-200vw);
 	}
-	75% {
-		transform: translateX(-300%);
+	75%,
+	95% {
+		transform: translateX(-300vw);
 	}
 	100% {
-		transform: translateX(-400%);
+		transform: translateX(0vw);
 	}
-} */
+}

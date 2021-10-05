@@ -1,51 +1,48 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
+	margin-top: 10px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	width: 100%;
 	height: 100vh;
 	background-color: #416d7a;
-	// border:5px solid red;
+	/* border: 5px solid red; */
 	flex-direction: column;
 `;
 
 export const Container = styled.div`
-	width: 100%;
+	width: 90vw;
 	overflow-y: hidden;
 	/* border: 5px solid blue; */
-
+	height: 80vh;
+	/* overflow-x: scroll; */
 	overflow-x: auto;
-	/* height: 70vh; */
 	scroll-behavior: smooth;
 	display: flex;
 	scroll-snap-type: x mandatory;
 	box-sizing: border-box;
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */
-	/* animation: carousel 20s linear infinite; */
 	&::-webkit-scrollbar {
 		display: none;
 	}
 `;
 
 export const SingleElement = styled.div`
+	animation: carousel 20s cubic-bezier(0.4, 0, 0.34, 0.9) infinite;
 	flex: 0 0 auto;
 	display: flex;
-	/* border: 5px solid black; */
 	justify-content: center;
 	align-items: center;
 	margin: 2rem 0;
-	width: 100%;
+	z-index: 500;
+	width: 100vw;
 	height: 35vw;
 	scroll-snap-align: start;
 	box-sizing: border-box !important;
 	color: white;
-
-	&:nth-child() {
-		background-color: yellow;
-	}
 
 	@media only screen and (max-width: 650px) {
 		flex-direction: column;
@@ -77,6 +74,9 @@ export const Button = styled.button`
 export const Heading = styled.div`
 	display: flex;
 	flex-direction: column;
+	/* margin: 2rem; */
+	height: 20vh;
+	/* border: 1px solid yellow; */
 	justify-content: center;
 	align-items: center;
 `;
