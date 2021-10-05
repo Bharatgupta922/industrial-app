@@ -12,7 +12,6 @@ import inn from "../images/innovative.png";
 import rd from "../images/Research_Development.png";
 import { Link } from "react-router-dom";
 import Carousel from "./Carousel/Carousel";
-
 const LandingPage = () => {
 	const data = {
 		theory_1:
@@ -86,7 +85,9 @@ const LandingPage = () => {
 				<div className="row g-0 my-5 py-5">
 					<div className="col-12 text-center">
 						<span>
+							<Link to="/explore">
 							<button className="explore-btn">Explore More</button>
+							</Link>
 						</span>
 					</div>
 				</div>

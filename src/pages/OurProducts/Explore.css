@@ -16,9 +16,10 @@
     padding: 50px;
 }
 .headings > h1 , .headings>p{
-    text-align: center;
+    /* text-align: center; */
 }
-.card-title {
+
+.card__heading {
 	font-size: 22px;
 	color: #416d7a;
 	font-weight: 700;
@@ -26,6 +27,7 @@
     font-style: normal;
     font-size: 32px;
     line-height: 44px;
+    text-align: left;
 /* identical to box height */
 
     text-transform: uppercase;
@@ -44,7 +46,7 @@
     border-radius: 0.25rem !important; */
 }
 
-.card-text {
+.card__content {
 	font-size: 14px;
 
     font-family: Nunito Sans;
@@ -52,9 +54,8 @@ font-style: normal;
 font-weight: normal;
 line-height: 30px;
 /* or 150% */
-
-
 color: #233B42;
+text-align: left !important;
 }
 .card-body{
 padding: 7% !important;
