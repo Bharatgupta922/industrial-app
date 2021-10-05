@@ -1,6 +1,11 @@
 .ourproducts {
 	background-color: #ecf3f5;
 }
+
+.col-sm > h1 {
+	color: #416d7a !important;
+}
+
 .heading {
 	margin-top: 50px !important;
 	padding: 10px;

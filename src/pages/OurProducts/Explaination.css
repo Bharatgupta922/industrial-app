@@ -1,0 +1,10 @@
+.banner__img {
+	/* margin-left: 85px; */
+	width: 90% !important;
+}
+.heading{
+    font-size:larger;
+    font-weight: 200 !important;
+    text-align: center;
+    
+}

@@ -83,7 +83,7 @@ const Carousel = () => {
 				</SingleElement>
 			</Container>
 			<Heading>
-				<h1>New Era Global</h1>
+				<h1 className="landing-page-title">New Era Global</h1>
 				<h2>One-stop solution for all your needs</h2>
 			</Heading>
 			<LinkWrapper>

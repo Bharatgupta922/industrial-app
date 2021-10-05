@@ -29,10 +29,8 @@ export const Bars = styled(FaBars)`
 
 export const NavMenu = styled.div`
 	display: flex;
-	width: 100%;
+	width: 90%;
 	justify-content: flex-start;
-	margin-right: -24px;
-	padding-bottom: 25px;
 	font-weight: 600;
 
 	@media screen and (max-width: 768px) {
@@ -52,11 +50,15 @@ export const NavContainer = styled.nav`
 	height: 130px;
 	display: flex;
 	flex-direction: column;
-	width: 100vw;
+	width: 100vw !important;
 	z-index: 10;
 	justify-content: center;
 	align-items: center;
 	opacity: ${({ isOpen }) => (isOpen ? 0 : 1)};
+
+	@media screen and (max-width: 950px) {
+		width: 100vw;
+	}
 
 	@media screen and (max-width: 768px) {
 		transition: 0.3s all ease-in-out;
@@ -82,6 +84,7 @@ export const NavGreen = styled.div`
 export const NavLogo = styled.img`
 	margin: -20px 0 0 40px;
 	z-index: 15;
+	width: auto;
 `;
 
 export const NavList = styled.div`

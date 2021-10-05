@@ -13,8 +13,19 @@
 
 .visit-map {
 	width: 45% !important;
-	padding-top: 100px;
+	/* width: auto; */
+	/* padding-top: 100px; */
+	/* border: 1px solid red; */
+}
+
+.iframe-map {
 	/* border: 1px solid blue; */
+
+	width: 90%;
+	height: 800px;
+	box-shadow: 18px 17px 5px -5px rgba(65, 109, 122, 0.49);
+	-webkit-box-shadow: 18px 17px 5px -5px rgba(65, 109, 122, 0.49);
+	-moz-box-shadow: 18px 17px 5px -5px rgba(65, 109, 122, 0.49);
 }
 
 .dot-1 {
@@ -24,11 +35,11 @@
 	left: -10rem;
 }
 
-.heading {
-	letter-spacing: 0.2rem;
-	font-weight: 650;
-	font-size: 60px;
-	color: #416d7a;
+.visit-text > h1 {
+	letter-spacing: 0.2rem !important;
+	font-weight: 650 !important;
+	font-size: 60px !important;
+	color: #416d7a !important;
 }
 
 .headquarters {
@@ -54,13 +65,6 @@
 .sub-heading {
 	letter-spacing: 2px;
 	font-weight: 600 !important;
-}
-
-.iframe-map {
-	width: 100%;
-	box-shadow: 18px 17px 5px -5px rgba(65, 109, 122, 0.49);
-	-webkit-box-shadow: 18px 17px 5px -5px rgba(65, 109, 122, 0.49);
-	-moz-box-shadow: 18px 17px 5px -5px rgba(65, 109, 122, 0.49);
 }
 
 .dot2 {
@@ -175,6 +179,15 @@ textarea::placeholder {
 	outline: none !important;
 }
 
+@media only screen and (max-width: 1270px) {
+	.iframe-map {
+		width: 80% !important;
+	}
+	.visit-container {
+		padding-right: 0;
+	}
+}
+
 @media only screen and (max-width: 950px) {
 	.banner {
 		flex-direction: column;
@@ -189,14 +202,18 @@ textarea::placeholder {
 	.banner-img {
 		width: 100%;
 	}
-	.heading {
+	.visit-text > h1 {
 		font-size: 40px !important;
 	}
 
 	.headquarters {
 		font-size: 38px !important;
 	}
-
+	.iframe-map {
+		width: 50%;
+		height: 600px;
+		/* border: 1px solid orange; */
+	}
 	.head-address {
 		font-size: 26px;
 	}
@@ -215,7 +232,9 @@ textarea::placeholder {
 	.visit-text {
 		width: 60%;
 	}
-
+	.iframe-map {
+		height: 500px;
+	}
 	.visit-map {
 		width: 80% !important;
 		padding-top: 30px;
@@ -226,13 +245,16 @@ textarea::placeholder {
 	.city {
 		font-size: 22px !important;
 	}
+	.iframe-map {
+		height: 400px;
+	}
 	.banner-right-text {
 		font-size: 16px;
 	}
 	.base-address {
 		font-size: 18px;
 	}
-	.heading {
+	.visit-text > h1 {
 		font-size: 30px !important;
 	}
 
@@ -246,6 +268,12 @@ textarea::placeholder {
 
 	.base-address {
 		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.iframe-map {
+		height: 300px;
 	}
 }
 

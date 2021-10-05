@@ -1,12 +1,10 @@
 import React from "react";
-import Navbar from "../../components/Navbar";
 import "./ContactUs.css";
 import dot1 from "../../images/dot-contact.png";
-import temp from "../../images/temp.png";
 import dot2 from "../../images/dot-contact-2.png";
 import bg from "../../images/banner-building.png";
 import formbg from "../../images/form-bg.png";
-
+import Map from "./Map";
 const ContactUs = () => {
 	return (
 		<>
@@ -14,7 +12,7 @@ const ContactUs = () => {
 				<div className="row g-0 visit-container">
 					<div className="visit-text">
 						<img src={dot1} alt="dot background" className="dot-1" />
-						<h1 className="heading mb-4">Come Visit Us</h1>
+						<h1 className="heading-contact mb-4">Come Visit Us</h1>
 						<div className="text-left">
 							<p className="headquarters my-3">Headquarters</p>
 							<p className="head-address">Ludhiana, Punjab</p>
@@ -30,7 +28,7 @@ const ContactUs = () => {
 						</div>
 					</div>
 					<div className="visit-map">
-						<img src={temp} alt="" className="iframe-map" />
+						<Map />
 						<img src={dot2} alt="" className="dot2" />
 					</div>
 				</div>
