@@ -4,7 +4,7 @@ import React, { useRef } from "react";
 import { withGoogleMap, GoogleMap } from 'react-google-maps';
 
 
-export default function Map() {
+export default function Map({height , width}) {
 
     const GoogleMapExample = withGoogleMap(props => (
   
@@ -26,7 +26,7 @@ export default function Map() {
   
       <GoogleMapExample
   
-        containerElement={ <div style={{ height: `600px`, width: '600px' }} /> }
+        containerElement={ <div style={{ height: `${height}`, width: `${width}` }} /> }
   
         mapElement={ <div style={{ height: `100%` }} /> }
   

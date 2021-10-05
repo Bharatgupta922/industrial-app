@@ -28,7 +28,7 @@ const ContactUs = () => {
 						</div>
 					</div>
 					<div className="visit-map">
-						<Map />
+						<Map height="600px" width="600px" />
 						{/* <img src={temp} alt="" className="iframe-map" /> */}
 						<img src={dot2} alt="" className="dot2" />
 					</div>

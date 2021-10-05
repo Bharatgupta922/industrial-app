@@ -1,11 +1,26 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import image1 from "./../../images/banner2.png";
+import Wetting from "./../../images/Explaination/Wetting.png";
+import Fishing from "./../../images/Explaination/Fishing.png";
+import Fixing from "./../../images/Explaination/Fixing.png";
+import Levelling from "./../../images/Explaination/Levelling.png";
+import Enzymes from "./../../images/Explaination/Enzymes.png";
+import Knitting from "./../../images/Explaination/Knitting.png";
+import Lubricants from "./../../images/Explaination/Lubricants.png";
+import Printing from "./../../images/Explaination/Printing.png";
+import Squestering from "./../../images/Explaination/Sequestering.png"
+import Speciality from "./../../images/Explaination/Speciality.png";
+import Spinning from "./../../images/Explaination/Spinning.png";
+import Substitute from "./../../images/Explaination/Substitute.png";
+import Washing from "./../../images/Explaination/Washing.png";
+
 import {Table} from "react-bootstrap";
 import "./Explaination.css";
+
 const Explaination = () => {
     const location = useLocation();
     console.log(location);
+
     const data = [
         {
             "hello":"hey",
@@ -598,7 +613,7 @@ const Explaination = () => {
         <div className="explaination container-fluid mt-5 pt-5 overflow-hidden">
             <div className="row g-0">
                 <div className="col-12 hero-banner d-flex align-items-center justify-content-center">
-                <img src={image1} alt={data[1].heading} className="banner__img" />
+                <img src={Wetting} alt={data[1].heading} className="banner__img" />
                 </div>
             </div>
             <p className="heading">{data[1].heading}</p>
