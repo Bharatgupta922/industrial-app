@@ -9,7 +9,7 @@ const Footer = () => {
 			<div class="webintern-footer-inner">
 				<div class="container-fluid px-5">
 					<div class="row">
-						<div class="col-sm-4 col-md-3 ">
+						<div class="col-sm-4 col-md-4 col-lg-3">
 							<figure>
 								<img
 									class="Footer__image"

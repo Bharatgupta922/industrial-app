@@ -61,6 +61,19 @@ const LandingPage = () => {
 					// style={{margin:"0"}}
 				>
 					<div className="col-3 g-1">
+					{/* <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src={image2} alt="levelling agent" style={{width:'300px',height:'350px'}} className="image_product__2" />
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div> */}
+
 					{/* <div class="wrap">
 					<div class="side-a"> */}
 					<img
@@ -71,8 +84,8 @@ const LandingPage = () => {
 					{/* </div>
 					<div class="side-b">
 					</div>
-					</div> */}
-					
+					</div>
+					 */}
 					</div>
 					<div className="col-3 g-1">
 						<img
