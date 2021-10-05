@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import image1 from "./../images/FooterLogo.jpg";
 import { Link } from "react-router-dom";
-
+import Map from "./../pages/ContactUs/Map";
 const Footer = () => {
 	return (
 		<footer class="webintern-footer footer">
@@ -102,43 +102,8 @@ const Footer = () => {
 							<div class="empty-space marg-lg-b20"></div>
 							<div class="empty-space marg-lg-b15"></div>
 
-							<form method="post">
-								<div class="tt-subscribe">
-									<input
-										type="text"
-										required=""
-										placeholder="Enter your email"
-									/>
-									<div class="tt-subscribe-submit">
-										<i class="fa fa-envelope" aria-hidden="true"></i>
-										<input type="submit" value="" />
-									</div>
-								</div>
-							</form>
 							<div class="empty-space marg-lg-b30"></div>
-
-							<ul class="tt-socail">
-								<li>
-									<a href="#">
-										<i class="fa fa-facebook" aria-hidden="true"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<i class="fa fa-linkedin" aria-hidden="true"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<i class="fa fa-twitter" aria-hidden="true"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<i class="fa fa-google-plus" aria-hidden="true"></i>
-									</a>
-								</li>
-							</ul>
+							<Map height="250px" width="200px" />
 						</div>
 					</div>
 				</div>
