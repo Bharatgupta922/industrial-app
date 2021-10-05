@@ -111,58 +111,58 @@ const Explore = () => {
                                         </div>
                                     </div>
                                 </div>
-                                     <p className="card-text"> {data.heading_1.para_2} </p>
-                                     <p className="card-text"> {data.heading_1.para_3} </p>
-                                     <p className="card-title"> {data.heading_2.title} </p>
-                                     <p className="card-text"> {data.heading_2.para_1} </p>
-                                     <p className="card-text"> {data.heading_2.para_2} </p>
-                                     <p className="card-text"> {data.heading_2.para_3} </p>
-                                     <p className="card-title"> {data.heading_3.title} </p>
-                                     <p className="card-text">1. {data.heading_3.para_1} </p>
-                                     <p className="card-text">2. {data.heading_3.para_2} </p>
-                                     <p className="card-text">3. {data.heading_3.para_3} </p>
-                                     <p className="card-text">4. {data.heading_3.para_4} </p>
-                                     <p className="card-text">5. {data.heading_3.para_5} </p>
+                                     <p className="card-text card__content"> {data.heading_1.para_2} </p>
+                                     <p className="card-text card__content"> {data.heading_1.para_3} </p>
+                                     <p className="card-title card__heading"> {data.heading_2.title} </p>
+                                     <p className="card-text card__content"> {data.heading_2.para_1} </p>
+                                     <p className="card-text card__content"> {data.heading_2.para_2} </p>
+                                     <p className="card-text card__content"> {data.heading_2.para_3} </p>
+                                     <p className="card-title card__heading"> {data.heading_3.title} </p>
+                                     <p className="card-text card__content">1. {data.heading_3.para_1} </p>
+                                     <p className="card-text card__content">2. {data.heading_3.para_2} </p>
+                                     <p className="card-text card__content">3. {data.heading_3.para_3} </p>
+                                     <p className="card-text card__content">4. {data.heading_3.para_4} </p>
+                                     <p className="card-text card__content">5. {data.heading_3.para_5} </p>
 
-                                     <p className="card-title"> {data.heading_4.title} </p>
-                                     <p className="card-text">1. {data.heading_4.para_1} </p>
-                                     <p className="card-text">2. {data.heading_4.para_2} </p>
-                                     <p className="card-text">3. {data.heading_4.para_3} </p>
-                                     <p className="card-text">4. {data.heading_4.para_4} </p>
-                                     <p className="card-text">5. {data.heading_4.para_5} </p>
-                                     <p className="card-text">6. {data.heading_4.para_6} </p>
-                                     <p className="card-text">7. {data.heading_4.para_7} </p>
-                                     <p className="card-title"> {data.heading_5.title} </p>
-                                     <p className="card-text"> {data.heading_5.para_1} </p>
-                                     <p className="card-title"> {data.heading_6.title} </p>
-                                     <p className="card-text"> {data.heading_6.para_1} </p>
-                                     <p className="card-text"> {data.heading_6.para_2} </p>
-                                     <p className="card-text"> {data.heading_6.para_3} </p>
+                                     <p className="card-title card__heading"> {data.heading_4.title} </p>
+                                     <p className="card-text card__content">1. {data.heading_4.para_1} </p>
+                                     <p className="card-text card__content">2. {data.heading_4.para_2} </p>
+                                     <p className="card-text card__content">3. {data.heading_4.para_3} </p>
+                                     <p className="card-text card__content">4. {data.heading_4.para_4} </p>
+                                     <p className="card-text card__content">5. {data.heading_4.para_5} </p>
+                                     <p className="card-text card__content">6. {data.heading_4.para_6} </p>
+                                     <p className="card-text card__content">7. {data.heading_4.para_7} </p>
+                                     <p className="card-title card__heading"> {data.heading_5.title} </p>
+                                     <p className="card-text card__content"> {data.heading_5.para_1} </p>
+                                     <p className="card-title card__heading"> {data.heading_6.title} </p>
+                                     <p className="card-text card__content"> {data.heading_6.para_1} </p>
+                                     <p className="card-text card__content"> {data.heading_6.para_2} </p>
+                                     <p className="card-text card__content"> {data.heading_6.para_3} </p>
 
                                             <div className="container">
                                                 <div className="row">
                                                     <div className="col-sm">
-                                                    <p className="card-title">  {data.heading_7.title} </p>
-                                                       <p className="card-text"> ●  {data.heading_7.para_1.title} : {data.heading_7.para_1.description} </p>
-                                                       <p className="card-text"> ●  {data.heading_7.para_2.title} : {data.heading_7.para_2.description} </p>
-                                                       <p className="card-text"> ●  {data.heading_7.para_3.title} : {data.heading_7.para_3.description} </p>
-                                                       <p className="card-text"> ●  {data.heading_7.para_4.title} : {data.heading_7.para_4.description} </p>
-                                                       <p className="card-text"> ●  {data.heading_7.para_5.title} : {data.heading_7.para_5.description} </p>
+                                                    <p className="card-title card__heading">  {data.heading_7.title} </p>
+                                                       <p className="card-text card__content"> ●  {data.heading_7.para_1.title} : {data.heading_7.para_1.description} </p>
+                                                       <p className="card-text card__content"> ●  {data.heading_7.para_2.title} : {data.heading_7.para_2.description} </p>
+                                                       <p className="card-text card__content"> ●  {data.heading_7.para_3.title} : {data.heading_7.para_3.description} </p>
+                                                       <p className="card-text card__content"> ●  {data.heading_7.para_4.title} : {data.heading_7.para_4.description} </p>
+                                                       <p className="card-text card__content"> ●  {data.heading_7.para_5.title} : {data.heading_7.para_5.description} </p>
                                                     </div>
                                                     <div className="col-sm">
-                                                      <p className="card-title"> {data.heading_8.title} </p>
-                                                      <p className="card-text"> ●  {data.heading_8.para_1} </p>
-                                                      <p className="card-text"> ●  {data.heading_8.para_2} </p>
-                                                      <p className="card-text"> ●  {data.heading_8.para_3} </p>
-                                                      <p className="card-text"> ●  {data.heading_8.para_4} </p>
-                                                      <p className="card-text"> ●  {data.heading_8.para_5} </p>
-                                                      <p className="card-text"> ●  {data.heading_8.para_6} </p>
+                                                      <p className="card-title card__heading"> {data.heading_8.title} </p>
+                                                      <p className="card-text card__content"> ●  {data.heading_8.para_1} </p>
+                                                      <p className="card-text card__content"> ●  {data.heading_8.para_2} </p>
+                                                      <p className="card-text card__content"> ●  {data.heading_8.para_3} </p>
+                                                      <p className="card-text card__content"> ●  {data.heading_8.para_4} </p>
+                                                      <p className="card-text card__content"> ●  {data.heading_8.para_5} </p>
+                                                      <p className="card-text card__content"> ●  {data.heading_8.para_6} </p>
                                                     </div>
                                                 </div>
                                             </div>
-                                     <p className="card-title"> {data.heading_9.title} </p>
-                                     <p className="card-text"> {data.heading_9.para_1} </p>
-                                     <p className="card-text"> {data.heading_9.para_2} </p>
+                                     <p className="card-title card__heading"> {data.heading_9.title} </p>
+                                     <p className="card-text card__content"> {data.heading_9.para_1} </p>
+                                     <p className="card-text card__content"> {data.heading_9.para_2} </p>
 							</div>
 						</div>
 					</div>

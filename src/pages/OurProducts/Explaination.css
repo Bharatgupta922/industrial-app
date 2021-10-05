@@ -36,6 +36,7 @@
     color: #233B42;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    padding: 10px 0 0 20px;
 }
 .table__package{
     padding: 50px;
