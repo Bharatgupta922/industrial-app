@@ -117,7 +117,7 @@ const Explore = () => {
 			<div className="container main__section">
 				<div class="row">
 					<div class="col">
-						<div class="card h-100">
+						<div class="card h-100 left-shadow">
 							<div class="card-body">
 								<div className="container">
 									<div className="row">

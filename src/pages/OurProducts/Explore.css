@@ -58,6 +58,11 @@
 .card-body {
 	padding: 7% !important;
 }
+.left-shadow {
+	box-shadow: -11px 1px 6px 0px rgba(128, 170, 183, 1);
+	-webkit-box-shadow: -11px 1px 6px 0px rgba(128, 170, 183, 1);
+	-moz-box-shadow: -11px 1px 6px 0px rgba(128, 170, 183, 1);
+}
 
 @media (max-width: 600px) {
 	.water-img {
