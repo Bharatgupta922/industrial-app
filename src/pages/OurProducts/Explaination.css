@@ -19,15 +19,16 @@
     flex: 1;
 }
 .products__table__product{
-    flex: 1;
+    flex: 2;
 }
 .products__table__substrate{
-    flex: 1;
+    flex: 2;
 }
 .products__table__description{
-    flex: 3;
+    flex: 4;
 }
 .table__heading{
+    font-family:'Nunito Sans';
     margin: 0 20px;
     display: flex;
     border-bottom: solid 1px #233B42;
@@ -35,4 +36,7 @@
     color: #233B42;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+.table__package{
+    padding: 50px;
 }

@@ -24,7 +24,7 @@ const Explaination = () => {
         },
         {
         "heading":"Wetting Detergent & Emulsifiers",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur dapibus pharetra feugiat convallis nunc quam quis nisl. Gravida diam quam nec mauris mi aliquam mi. Viverra ipsum cursus fringilla curabitur. Consequat, porta quis fringilla adipiscing sapien viverra. In sit fusce mattis eu sit integer et nisl. Massa id adipiscing dictum pulvinar dolor tincidunt. Purus vitae, morbi sed semper leo. Egestas sagittis, iaculis egestas ut tellus vitae eget. Risus purus sit nisl faucibus vitae. At.",
+        "description":"Wetting Detergent and Emulsifiers are resistant to hard water and are water-soluble strong with characteristics of infiltration, leveling, wettability and good dispersion. We supply high quality wetting agent chemicals for large scale textile processing companies",
         "list":[
             {
                 "sno":"1",
@@ -42,85 +42,85 @@ const Explaination = () => {
                 "sno":"3",
                 "Product":"Prewet Stain",
                 "Substrate":"Cotton/Lycra, Polyester, and blends",
-                "Description":"Wetting & emulsification.",
+                "Description":"Excellent emulsifier to remove any oil present during scouring.",
             },
             {
                 "sno":"4",
                 "Product":"Prewet FBOL",
                 "Substrate":"Cotton, Silk, wool, polyester & blends",
-                "Description":"Wetting & emulsification.",
+                "Description":"Excellent emulsifier with wetting and scouring, mainly used for degumming of silk.",
             },
             {
                 "sno":"5",
                 "Product":"Prewet FI",
                 "Substrate":"Polyester, Viscose, acrylic.",
-                "Description":"Wetting & emulsification.",
+                "Description":"Same bath scouring and dyeing, can efficiently remove oil.",
             },
             {
                 "sno":"6",
                 "Product":"Prewet AIO",
                 "Substrate":"Cotton",
-                "Description":"Wetting & emulsification.",
+                "Description":"All in one product for Cotton scouring and bleaching.",
             },
             {
                 "sno":"7",
                 "Product":"Prewet WS",
                 "Substrate":"Wool",
-                "Description":"Wetting & emulsification.",
+                "Description":"Excellent wool scouring agent.",
             },
             {
                 "sno":"8",
                 "Product":"Prewet KDC",
                 "Substrate":"Cotton/Blends",
-                "Description":"Wetting & emulsification.",
+                "Description":"Mainly for Yarns, same bath scouring and dyeing",
             },
             {
                 "sno":"9",
                 "Product":"Prewet MR",
                 "Substrate":"Cotton",
-                "Description":"Wetting & emulsification.",
+                "Description":"Mercerising Agent",
             },
             {
                 "sno":"10",
                 "Product":"Prewet OT Paste",
                 "Substrate":"Cotton & Blends",
-                "Description":"Wetting & emulsification.",
+                "Description":"Instant wetting & Rewetting",
             },
             {
                 "sno":"11",
                 "Product":"Prewet OT H/c",
                 "Substrate":"Cotton & Blends",
-                "Description":"Wetting & emulsification.",
+                "Description":"Instant wetting & Rewetting",
             },
             {
                 "sno":"12",
                 "Product":"Prewet WRC",
                 "Substrate":"Polyester",
-                "Description":"Wetting & emulsification.",
+                "Description":"Weight Reduction of Polyester",
             },
             {
                 "sno":"13",
                 "Product":"Prewet NIT",
                 "Substrate":"Cotton & Blends",
-                "Description":"Wetting & emulsification.",
+                "Description":"Non-Ionic Wetting Cum Detergent",
             },
             {
                 "sno":"14",
                 "Product":"Prewet Clean",
                 "Substrate":"Cotton",
-                "Description":"Wetting & emulsification.",
+                "Description":"Cleaning of lints in enzyme bath",
             },
             {
                 "sno":"15",
                 "Product":"Prewet IO",
                 "Substrate":"Any",
-                "Description":"Wetting & emulsification.",
+                "Description":"Hydrogen Peroxide Stabiliser can be applied for any machine",
             },
         ]
         },
         {
             "heading":"Levelling Agent",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur dapibus pharetra feugiat convallis nunc quam quis nisl. Gravida diam quam nec mauris mi aliquam mi. Viverra ipsum cursus fringilla curabitur. Consequat, porta quis fringilla adipiscing sapien viverra. In sit fusce mattis eu sit integer et nisl. Massa id adipiscing dictum pulvinar dolor tincidunt. Purus vitae, morbi sed semper leo. Egestas sagittis, iaculis egestas ut tellus vitae eget. Risus purus sit nisl faucibus vitae. At.",
+            "description":"Levelling agents are chemicals that work on the dye molecule and help in fixing the dye particles uniformly which enables them to obtain uniform shade. Levelling agents are also termed as retarding agents or retarders. Levelling agents are key for successful dyeing in situations where dye tends to rush on to the substrate giving non-uniform dyeing.",
             "list":[
                 {
                     "sno":"1",
@@ -198,7 +198,7 @@ const Explaination = () => {
         },
         {
             "heading":"Washing Off / Soaping Agent",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur dapibus pharetra feugiat convallis nunc quam quis nisl. Gravida diam quam nec mauris mi aliquam mi. Viverra ipsum cursus fringilla curabitur. Consequat, porta quis fringilla adipiscing sapien viverra. In sit fusce mattis eu sit integer et nisl. Massa id adipiscing dictum pulvinar dolor tincidunt. Purus vitae, morbi sed semper leo. Egestas sagittis, iaculis egestas ut tellus vitae eget. Risus purus sit nisl faucibus vitae. At.",
+            "description":"Washing-off agent exhibits excellent dispersing effect on Raw Cotton impurities and on the precipitates caused due to hard water. Washing-off agent functions by removing unfixed or hydrolyzed dye, thereby preventing it from depositing on the textile, leading to good washing fastness.",
             "list":[
                 {
                     "sno":"1",
@@ -234,7 +234,7 @@ const Explaination = () => {
         },
         {
             "heading":"Finishing Agents",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur dapibus pharetra feugiat convallis nunc quam quis nisl. Gravida diam quam nec mauris mi aliquam mi. Viverra ipsum cursus fringilla curabitur. Consequat, porta quis fringilla adipiscing sapien viverra. In sit fusce mattis eu sit integer et nisl. Massa id adipiscing dictum pulvinar dolor tincidunt. Purus vitae, morbi sed semper leo. Egestas sagittis, iaculis egestas ut tellus vitae eget. Risus purus sit nisl faucibus vitae. At.",
+            "description":"A finishing agent in textile is widely used in the textile industry, which is very important for all the fabrics. It is basically used to improve the appearance of fabric by imparting gloss and by removing wrinkles formed during preparation of fabric. ",
             "list":[
                 {
                     "sno":"1",
@@ -294,7 +294,7 @@ const Explaination = () => {
         },
         {
             "heading":"Substitute",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur dapibus pharetra feugiat convallis nunc quam quis nisl. Gravida diam quam nec mauris mi aliquam mi. Viverra ipsum cursus fringilla curabitur. Consequat, porta quis fringilla adipiscing sapien viverra. In sit fusce mattis eu sit integer et nisl. Massa id adipiscing dictum pulvinar dolor tincidunt. Purus vitae, morbi sed semper leo. Egestas sagittis, iaculis egestas ut tellus vitae eget. Risus purus sit nisl faucibus vitae. At.",
+            "description":"Successful substitution of chemicals depends a lot on the process, materials used and numerous other individual conditions. These products listed are sustainable and safe for the environment. ",
             "list":[
                 {
                     "sno":"1",
@@ -324,7 +324,7 @@ const Explaination = () => {
         },
         {
             "heading":"Printing Series",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur dapibus pharetra feugiat convallis nunc quam quis nisl. Gravida diam quam nec mauris mi aliquam mi. Viverra ipsum cursus fringilla curabitur. Consequat, porta quis fringilla adipiscing sapien viverra. In sit fusce mattis eu sit integer et nisl. Massa id adipiscing dictum pulvinar dolor tincidunt. Purus vitae, morbi sed semper leo. Egestas sagittis, iaculis egestas ut tellus vitae eget. Risus purus sit nisl faucibus vitae. At.",
+            "description":"Textile printing is the process of applying color to fabric in definite patterns or designs. In properly printed fabrics the color is bonded with the fiber, so as to resist washing and friction. We offer a wide range of printing chemicals that cater to your needs",
             "list":[
                 {
                     "sno":"1",
@@ -420,7 +420,7 @@ const Explaination = () => {
         },
         {
             "heading":"Knitting",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur dapibus pharetra feugiat convallis nunc quam quis nisl. Gravida diam quam nec mauris mi aliquam mi. Viverra ipsum cursus fringilla curabitur. Consequat, porta quis fringilla adipiscing sapien viverra. In sit fusce mattis eu sit integer et nisl. Massa id adipiscing dictum pulvinar dolor tincidunt. Purus vitae, morbi sed semper leo. Egestas sagittis, iaculis egestas ut tellus vitae eget. Risus purus sit nisl faucibus vitae. At.",
+            "description":"Our Knitting oils are developed to meet the critical requirements of modern sewing and industrial knitting machines.",
             "list":[
                 {
                     "sno":"1",
@@ -438,7 +438,7 @@ const Explaination = () => {
         },
         {
             "heading":"Sequestering Agents",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur dapibus pharetra feugiat convallis nunc quam quis nisl. Gravida diam quam nec mauris mi aliquam mi. Viverra ipsum cursus fringilla curabitur. Consequat, porta quis fringilla adipiscing sapien viverra. In sit fusce mattis eu sit integer et nisl. Massa id adipiscing dictum pulvinar dolor tincidunt. Purus vitae, morbi sed semper leo. Egestas sagittis, iaculis egestas ut tellus vitae eget. Risus purus sit nisl faucibus vitae. At.",
+            "description":"A sequestering is a complex forming auxiliary chemical with metals such as Iron, Copper, Nickel, Zinc, and Magnesium that are present in water and affects the textile processing. The three main stages in which sequestering agents are used are ● Pretreatment ● Bleaching ● Dyeing  ",
             "list":[
                 {
                     "sno":"1",
@@ -462,7 +462,7 @@ const Explaination = () => {
         },
         {
             "heading":"Lubricants / Anti-crease",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur dapibus pharetra feugiat convallis nunc quam quis nisl. Gravida diam quam nec mauris mi aliquam mi. Viverra ipsum cursus fringilla curabitur. Consequat, porta quis fringilla adipiscing sapien viverra. In sit fusce mattis eu sit integer et nisl. Massa id adipiscing dictum pulvinar dolor tincidunt. Purus vitae, morbi sed semper leo. Egestas sagittis, iaculis egestas ut tellus vitae eget. Risus purus sit nisl faucibus vitae. At.",
+            "description":"Anti-Creasing agents reduce the friction between fibres and fibres-dyeing tank that prevents creases or scratches, due to its smoothing and softening effects. Anti creasing agents and lubricants have the advantages of low foaming and excellent stability, suitable for all kinds of fabrics, especially knitted fabric pretreatment, dyeing, and post-processing. It is also applicable to the printing and dyeing processing. These are environment-friendly and non-dangerous, which can be shipped safely.",
             "list":[
                 {
                     "sno":"1",
@@ -480,7 +480,7 @@ const Explaination = () => {
         },
         {
             "heading":"Fixing Agent",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur dapibus pharetra feugiat convallis nunc quam quis nisl. Gravida diam quam nec mauris mi aliquam mi. Viverra ipsum cursus fringilla curabitur. Consequat, porta quis fringilla adipiscing sapien viverra. In sit fusce mattis eu sit integer et nisl. Massa id adipiscing dictum pulvinar dolor tincidunt. Purus vitae, morbi sed semper leo. Egestas sagittis, iaculis egestas ut tellus vitae eget. Risus purus sit nisl faucibus vitae. At.",
+            "description":"A fixing agent includes good capability with cross linking agents without promoting dye bleeding. It is generally used after completing the dyeing or printing process. It Improves the color fastness of dye in fabric. With environmental awareness and improvement of people's living standards, fixing agents are now more required for textiles comfort, clean and safety. ",
             "list":[
                 {
                     "sno":"1",
@@ -504,7 +504,7 @@ const Explaination = () => {
         },
         {
             "heading":"Enzymes",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur dapibus pharetra feugiat convallis nunc quam quis nisl. Gravida diam quam nec mauris mi aliquam mi. Viverra ipsum cursus fringilla curabitur. Consequat, porta quis fringilla adipiscing sapien viverra. In sit fusce mattis eu sit integer et nisl. Massa id adipiscing dictum pulvinar dolor tincidunt. Purus vitae, morbi sed semper leo. Egestas sagittis, iaculis egestas ut tellus vitae eget. Risus purus sit nisl faucibus vitae. At.",
+            "description":"Enzymes are used to remove the starch and scale down the effectiveness of hydrogen peroxide, lignin and bleaching textiles. Enzymes are safely used in the textile processes like de-sizing, scouring, bleaching, dyeing and finishing. Moreover, enzymes are used as substitutes of harmful chemicals which pose environmental risks and hence are biodegradable. ",
             "list":[
                 {
                     "sno":"1",
@@ -534,7 +534,7 @@ const Explaination = () => {
         },
         {
             "heading":"Speciality Chemicals",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur dapibus pharetra feugiat convallis nunc quam quis nisl. Gravida diam quam nec mauris mi aliquam mi. Viverra ipsum cursus fringilla curabitur. Consequat, porta quis fringilla adipiscing sapien viverra. In sit fusce mattis eu sit integer et nisl. Massa id adipiscing dictum pulvinar dolor tincidunt. Purus vitae, morbi sed semper leo. Egestas sagittis, iaculis egestas ut tellus vitae eget. Risus purus sit nisl faucibus vitae. At.",
+            "description":"Speciality Chemicals are described as chemicals with high value and low volume which are used as performance enhancing properties. ",
             "list":[
                 {
                     "sno":"1",
@@ -576,7 +576,7 @@ const Explaination = () => {
         },
         {
             "heading":"Spinning",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur dapibus pharetra feugiat convallis nunc quam quis nisl. Gravida diam quam nec mauris mi aliquam mi. Viverra ipsum cursus fringilla curabitur. Consequat, porta quis fringilla adipiscing sapien viverra. In sit fusce mattis eu sit integer et nisl. Massa id adipiscing dictum pulvinar dolor tincidunt. Purus vitae, morbi sed semper leo. Egestas sagittis, iaculis egestas ut tellus vitae eget. Risus purus sit nisl faucibus vitae. At.",
+            "description":"Range of antistatic oil for fabrics and conning oil for high speed texturising machines.",
             "list":[
                 {
                     "sno":"1",
@@ -611,44 +611,44 @@ const Explaination = () => {
     let index = Number(location.index);
     
     function renderImage(){
-        if(Number(location.index) == 1){
-            return <img src={Wetting} alt = {data[Number(location.index)].heading} className="banner__img" />
+        if(index == 1){
+            return <img src={Wetting} alt = {data[index].heading} className="banner__img" />
         }
-        else if (Number(location.index)==2){
-            return <img src={Levelling} alt = {data[Number(location.index)].heading} className="banner__img" />
+        else if (index==2){
+            return <img src={Levelling} alt = {data[index].heading} className="banner__img" />
         }
-        else if (Number(location.index)==3){
-            return <img src={Washing} alt = {data[Number(location.index)].heading} className="banner__img" />
+        else if (index==3){
+            return <img src={Washing} alt = {data[index].heading} className="banner__img" />
         }
-        else if (Number(location.index)==4){
-            return <img src={Finishing} alt = {data[Number(location.index)].heading} className="banner__img" />
+        else if (index==4){
+            return <img src={Finishing} alt = {data[index].heading} className="banner__img" />
         }
-        else if (Number(location.index)==5){
-            return <img src={Substitute} alt = {data[Number(location.index)].heading} className="banner__img" />
+        else if (index==5){
+            return <img src={Substitute} alt = {data[index].heading} className="banner__img" />
         }
-        else if (Number(location.index)==6){
-            return <img src={Printing} alt = {data[Number(location.index)].heading} className="banner__img" />
+        else if (index==6){
+            return <img src={Printing} alt = {data[index].heading} className="banner__img" />
         }
-        else if (Number(location.index)==7){
-            return <img src={Knitting} alt = {data[Number(location.index)].heading} className="banner__img" />
+        else if (index==7){
+            return <img src={Knitting} alt = {data[index].heading} className="banner__img" />
         }
-        else if (Number(location.index)==8){
-            return <img src={Squestering} alt = {data[Number(location.index)].heading} className="banner__img" />
+        else if (index==8){
+            return <img src={Squestering} alt = {data[index].heading} className="banner__img" />
         }
-        else if (Number(location.index)==9){
-            return <img src={Lubricants} alt = {data[Number(location.index)].heading} className="banner__img" />
+        else if (index==9){
+            return <img src={Lubricants} alt = {data[index].heading} className="banner__img" />
         }
-        else if (Number(location.index)==10){
-            return <img src={Fixing} alt = {data[Number(location.index)].heading} className="banner__img" />
+        else if (index==10){
+            return <img src={Fixing} alt = {data[index].heading} className="banner__img" />
         }
-        else if (Number(location.index)==11){
-            return <img src={Enzymes} alt = {data[Number(location.index)].heading} className="banner__img" />
+        else if (index==11){
+            return <img src={Enzymes} alt = {data[index].heading} className="banner__img" />
         }
-        else if (Number(location.index)==12){
-            return <img src={Speciality} alt = {data[Number(location.index)].heading} className="banner__img" />
+        else if (index==12){
+            return <img src={Speciality} alt = {data[index].heading} className="banner__img" />
         }
-        else if (Number(location.index)==13){
-            return <img src={Spinning} alt = {data[Number(location.index)].heading} className="banner__img" />
+        else if (index==13){
+            return <img src={Spinning} alt = {data[index].heading} className="banner__img" />
         }
     }
     return (
@@ -668,6 +668,7 @@ const Explaination = () => {
 							</p>
 						</div>
 					</div>
+                    <div className="table__package">
                     <div className="table__heading">
                     <p className="products__table__sno">S NO.</p>
                     <p className="products__table__product">Product</p>
@@ -687,7 +688,8 @@ const Explaination = () => {
                         //     <td>{x.Substrate}</td>
                         //     <td>{x.Description}</td>
                         // </tr>
-                    )}
+                        )}
+                </div>
         </div>
     )
 };
