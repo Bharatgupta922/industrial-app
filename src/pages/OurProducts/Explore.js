@@ -104,7 +104,7 @@ const Explore = () => {
                                     <div className="row">
                                         <div className="col-sm">
                                             <p class="card-title">{data.heading_1.title}</p>
-                                            <img src = {image2} alt="water image" className="water-img" />
+                                            <img src = {image2} alt="water" className="water-img" />
                                         </div>
                                         <div className="col-sm">
                                         <p className="card-text first__para"> {data.heading_1.para_1} </p>

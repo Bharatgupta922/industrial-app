@@ -619,7 +619,7 @@ const Explaination = () => {
                     </tr>
                   </thead>
                     <tbody>
-                {data[1].list.map((x,index)=>
+                {data[Number(location.index)].list.map((x,index)=>
                         <tr key={index}>
                             <td>{x.sno}</td>
                             <td>{x.Product}</td>

@@ -47,7 +47,7 @@ const OurProducts = () => {
 				<div className="container">
 					<div className="row">
 						<div className="col-sm">
-							<Link to = {{pathname:'/explaination',index:1}}>
+							<Link to = {{pathname:'/explaination',index:'1'}}>
 <div className="package">
 							<img src={image1} alt="Wetting Detergent & emulsifiers" />
 							<div className="package__description">
@@ -59,7 +59,7 @@ const OurProducts = () => {
 						</div>
 						
 						<div className="col-sm">
-							<Link to = {{pathname:'/explaination',index:2}}>
+							<Link to = {{pathname:'/explaination',index:'2'}}>
 <div className="package">
 							<img src={image2} alt="Levelling Agent" />
 							<div className="package__description">
@@ -73,7 +73,7 @@ const OurProducts = () => {
 					</div>
 					<div className="row">
 						<div className="col-sm">
-							<Link to = {{pathname:'/explaination',index:3}}>
+							<Link to = {{pathname:'/explaination',index:'3'}}>
 <div className="package">
 							<img src={image3} alt="Washing Off / Soaping Agent" />
 							<div className="package__description">
@@ -85,7 +85,7 @@ const OurProducts = () => {
 						</div>
 						
 						<div className="col-sm">
-							<Link to = {{pathname:'/explaination',index:4}}>
+							<Link to = {{pathname:'/explaination',index:'4'}}>
 <div className="package">
 							<img src={image4} alt="Finishing Agents" />
 							<div className="package__description">
@@ -99,7 +99,7 @@ const OurProducts = () => {
 					</div>
 					<div className="row">
 						<div className="col-sm">
-							<Link to = {{pathname:'/explaination',index:5}}>
+							<Link to = {{pathname:'/explaination',index:'5'}}>
 <div className="package">
 							<img src={image5} alt="Substitute" />
 							<div className="package__description">
@@ -111,7 +111,7 @@ const OurProducts = () => {
 						</div>
 						
 						<div className="col-sm">
-							<Link to = {{pathname:'/explaination',index:6}}>
+							<Link to = {{pathname:'/explaination',index:'6'}}>
 <div className="package">
 							<img src={image6} alt="Printing Series" />
 							<div className="package__description">
@@ -125,7 +125,7 @@ const OurProducts = () => {
 					</div>
 					<div className="row">
 						<div className="col-sm">
-							<Link to = {{pathname:'/explaination',index:7}}>
+							<Link to = {{pathname:'/explaination',index:'7'}}>
 <div className="package">
 							<img src={image7} alt="Knitting" />
 							<div className="package__description">
@@ -137,7 +137,7 @@ const OurProducts = () => {
 						</div>
 						
 						<div className="col-sm">
-							<Link to = {{pathname:'/explaination',index:8}}>
+							<Link to = {{pathname:'/explaination',index:'8'}}>
 <div className="package">
 							<img src={image8} alt="Sequestering Agents" />
 							<div className="package__description">
@@ -151,7 +151,7 @@ const OurProducts = () => {
 					</div>
 					<div className="row">
 						<div className="col-sm">
-							<Link to = {{pathname:'/explaination',index:9}}>
+							<Link to = {{pathname:'/explaination',index:'9'}}>
 <div className="package">
 							<img src={image9} alt="Lubricants / Anti-crease" />
 							<div className="package__description">
@@ -163,7 +163,7 @@ const OurProducts = () => {
 						</div>
 						
 						<div className="col-sm">
-							<Link to = {{pathname:'/explaination',index:10}}>
+							<Link to = {{pathname:'/explaination',index:'10'}}>
 <div className="package">
 							<img src={image10} alt="Fixing Agent" />
 							<div className="package__description">
@@ -177,7 +177,7 @@ const OurProducts = () => {
 					</div>
 					<div className="row">
 						<div className="col-sm">
-							<Link to = {{pathname:'/explaination',index:11}}>
+							<Link to = {{pathname:'/explaination',index:'11'}}>
 <div className="package">
 							<img src={image11} alt="Enzymes" />
 							<div className="package__description">
@@ -189,7 +189,7 @@ const OurProducts = () => {
 						</div>
 						
 						<div className="col-sm">
-							<Link to = {{pathname:'/explaination',index:12}}>
+							<Link to = {{pathname:'/explaination',index:'12'}}>
 <div className="package">
 							<img src={image12} alt="Speciality Chemicals" />
 							<div className="package__description">
@@ -203,7 +203,7 @@ const OurProducts = () => {
 					</div>
 					<div className="row">
 						<div className="col-sm">
-							<Link to = {{pathname:'/explaination',index:13}}>
+							<Link to = {{pathname:'/explaination',index:'13'}}>
 <div className="package">
 							<img src={image13} alt="Spinning" />
 							<div className="package__description">

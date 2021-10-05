@@ -1,12 +1,10 @@
 import React from "react";
-import Navbar from "../../components/Navbar";
 import "./ContactUs.css";
 import dot1 from "../../images/dot-contact.png";
-import temp from "../../images/temp.png";
 import dot2 from "../../images/dot-contact-2.png";
 import bg from "../../images/banner-building.png";
 import formbg from "../../images/form-bg.png";
-
+import Map from "./Map";
 const ContactUs = () => {
 	return (
 		<>
@@ -30,7 +28,8 @@ const ContactUs = () => {
 						</div>
 					</div>
 					<div className="visit-map">
-						<img src={temp} alt="" className="iframe-map" />
+						<Map />
+						{/* <img src={temp} alt="" className="iframe-map" /> */}
 						<img src={dot2} alt="" className="dot2" />
 					</div>
 				</div>
