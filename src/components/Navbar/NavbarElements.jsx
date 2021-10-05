@@ -7,8 +7,9 @@ export const NavLink = styled(Link)`
 	text-decoration: none;
 	height: 100%;
 	cursor: pointer;
-	&.active {
-		color: #15cdfc;
+
+	&:hover {
+		color: black;
 	}
 `;
 

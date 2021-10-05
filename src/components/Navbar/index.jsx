@@ -12,6 +12,7 @@ import {
 	Icon,
 } from "./NavbarElements";
 import logo from "../../images/logo.png";
+import "./Navbar.css";
 
 const Navbar = ({ isOpen, toggle }) => {
 	return (
@@ -29,16 +30,16 @@ const Navbar = ({ isOpen, toggle }) => {
 			<NavMenu>
 				<NavLogo src={logo} alt="logo" />
 				<NavList>
-					<NavLink to="/" exact activeStyle>
+					<NavLink to="/" exact activeClassName="selected">
 						Home
 					</NavLink>
-					<NavLink to="/about" activeStyle>
+					<NavLink to="/about" activeClassName="selected">
 						About Us
 					</NavLink>
-					<NavLink to="/products" activeStyle>
+					<NavLink to="/products" activeClassName="selected">
 						Products
 					</NavLink>
-					<NavLink to="/contact" activeStyle>
+					<NavLink to="/contact" activeClassName="selected">
 						Contact Us
 					</NavLink>
 				</NavList>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ContactUs.css";
 import dot1 from "../../images/dot-contact.png";
 import dot2 from "../../images/dot-contact-2.png";
@@ -6,6 +6,40 @@ import bg from "../../images/banner-building.png";
 import formbg from "../../images/form-bg.png";
 import Map from "./Map";
 const ContactUs = () => {
+	const [address, setAddress] = useState(`#913, 11th Cross, Sangamesh\n
+		 Nilay, Vidhymanya Nagar,\n
+	Bangalore-560091`);
+
+	const [index, setIndex] = useState(2);
+
+	const addr = (idx) => {
+		// let e =
+		setIndex(idx);
+		switch (idx) {
+			case 1:
+				setAddress(
+					`Shree Parasnath Complex, KUD Business Avenue, Bhiwandi, Mumbai-421302`,
+				);
+				// e.target.className(`${classItalic}`);
+				break;
+			case 2:
+				setAddress(`#913, 11th Cross, Sangamesh\n
+				Nilay, Vidhymanya Nagar,\n
+		   Bangalore-560091`);
+				break;
+			case 3:
+				setAddress(`15/1/23, Jheel Road, Bank Plot, Kolkata, 700031`);
+				break;
+			case 4:
+				setAddress(`#6, First Street, Gandhi Nagar, Tirupur - 641603`);
+				break;
+			case 5:
+				setAddress(`CHauri Road, In front of CSC Block, Bhadohi - 221401`);
+				break;
+			default:
+				break;
+		}
+	};
 	return (
 		<>
 			<div className="container-fluid my-5 ">
@@ -36,18 +70,40 @@ const ContactUs = () => {
 			<div className="row banner">
 				<div className="banner-top">
 					<div className="banner-cities">
-						<h1 className="city py-2 ">MUMBAI</h1>
-						<h1 className="city py-2 italic">BANGALORE</h1>
-						<h1 className="city py-2 ">KOLKATA</h1>
-						<h1 className="city py-2 ">TIRUPUR</h1>
-						<h1 className="city py-2 ">BHADOHI</h1>
+						<h1
+							className={`city py-2 ${index === 1 ? `italic` : ``}`}
+							onClick={() => addr(1)}
+						>
+							MUMBAI
+						</h1>
+						<h1
+							className={`city py-2 ${index === 2 ? `italic` : ``}`}
+							onClick={() => addr(2)}
+						>
+							BANGALORE
+						</h1>
+						<h1
+							className={`city py-2 ${index === 3 ? `italic` : ``}`}
+							onClick={() => addr(3)}
+						>
+							KOLKATA
+						</h1>
+						<h1
+							className={`city py-2 ${index === 4 ? `italic` : ``}`}
+							onClick={() => addr(4)}
+						>
+							TIRUPUR
+						</h1>
+						<h1
+							className={`city py-2 ${index === 5 ? `italic` : ``}`}
+							onClick={() => addr(5)}
+						>
+							BHADOHI
+						</h1>
 					</div>
 					<div className="banner-address">
 						<span className="banner-right-text">
-							#913, 11th Cross, Sangamesh <br />
-							Nilay, Vidhymanya Nagar,
-							<br />
-							Bangalore-560091
+							{address}
 							<h4 className="sub-heading">Email</h4>
 							<span className="base-address" style={{ wordWrap: "break-word" }}>
 								info@neweraglobalpvtltd.com

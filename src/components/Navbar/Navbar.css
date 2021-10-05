@@ -1,0 +1,16 @@
+.selected {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.selected::after {
+	content: "";
+	width: 90%;
+	margin-top: 5px;
+	height: 3px;
+	background: #416d7a;
+	border-radius: 5px;
+	display: block;
+}
