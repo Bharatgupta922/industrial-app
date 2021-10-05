@@ -635,7 +635,7 @@ const Explaination = () => {
 	];
 
 	const location = useLocation();
-	console.log(location);
+	// console.log(location);
 	let index = Number(location.index);
 
 	function renderImage() {
