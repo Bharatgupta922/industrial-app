@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 import Wetting from "./../../images/Explaination/Wetting.png";
-import Fishing from "./../../images/Explaination/Fishing.png";
+import Finishing from "./../../images/Explaination/Finishing.png";
 import Fixing from "./../../images/Explaination/Fixing.png";
 import Levelling from "./../../images/Explaination/Levelling.png";
 import Enzymes from "./../../images/Explaination/Enzymes.png";
@@ -18,9 +18,6 @@ import {Table} from "react-bootstrap";
 import "./Explaination.css";
 
 const Explaination = () => {
-    const location = useLocation();
-    console.log(location);
-
     const data = [
         {
             "hello":"hey",
@@ -608,42 +605,89 @@ const Explaination = () => {
             ],
         },
     ];
-
+    
+    const location = useLocation();
+    console.log(location);
+    let index = Number(location.index);
+    
+    function renderImage(){
+        if(Number(location.index) == 1){
+            return <img src={Wetting} alt = {data[Number(location.index)].heading} className="banner__img" />
+        }
+        else if (Number(location.index)==2){
+            return <img src={Levelling} alt = {data[Number(location.index)].heading} className="banner__img" />
+        }
+        else if (Number(location.index)==3){
+            return <img src={Washing} alt = {data[Number(location.index)].heading} className="banner__img" />
+        }
+        else if (Number(location.index)==4){
+            return <img src={Finishing} alt = {data[Number(location.index)].heading} className="banner__img" />
+        }
+        else if (Number(location.index)==5){
+            return <img src={Substitute} alt = {data[Number(location.index)].heading} className="banner__img" />
+        }
+        else if (Number(location.index)==6){
+            return <img src={Printing} alt = {data[Number(location.index)].heading} className="banner__img" />
+        }
+        else if (Number(location.index)==7){
+            return <img src={Knitting} alt = {data[Number(location.index)].heading} className="banner__img" />
+        }
+        else if (Number(location.index)==8){
+            return <img src={Squestering} alt = {data[Number(location.index)].heading} className="banner__img" />
+        }
+        else if (Number(location.index)==9){
+            return <img src={Lubricants} alt = {data[Number(location.index)].heading} className="banner__img" />
+        }
+        else if (Number(location.index)==10){
+            return <img src={Fixing} alt = {data[Number(location.index)].heading} className="banner__img" />
+        }
+        else if (Number(location.index)==11){
+            return <img src={Enzymes} alt = {data[Number(location.index)].heading} className="banner__img" />
+        }
+        else if (Number(location.index)==12){
+            return <img src={Speciality} alt = {data[Number(location.index)].heading} className="banner__img" />
+        }
+        else if (Number(location.index)==13){
+            return <img src={Spinning} alt = {data[Number(location.index)].heading} className="banner__img" />
+        }
+    }
     return (
         <div className="explaination container-fluid mt-5 pt-5 overflow-hidden">
             <div className="row g-0">
                 <div className="col-12 hero-banner d-flex align-items-center justify-content-center">
-                <img src={Wetting} alt={data[1].heading} className="banner__img" />
+                    {
+                        renderImage()   
+                    }
                 </div>
             </div>
-            <p className="heading">{data[1].heading}</p>
+            <p className="heading"> <b>{data[index].heading}</b></p>
             <div className="row g-0">
 						<div className="col-md-6 col-12 mx-auto mb-5">
 							<p className="text-center mb-3 p-4">
-								{data[1].description}
+								{data[index].description}
 							</p>
 						</div>
 					</div>
-            <Table striped variant="info">
-                  <thead>
-                    <tr>
-                      <th>S NO.</th>
-                      <th>Product</th>
-                      <th>Substrate</th>
-                      <th>Description</th>
-                    </tr>
-                  </thead>
-                    <tbody>
-                {data[Number(location.index)].list.map((x,index)=>
-                        <tr key={index}>
-                            <td>{x.sno}</td>
-                            <td>{x.Product}</td>
-                            <td>{x.Substrate}</td>
-                            <td>{x.Description}</td>
-                        </tr>
+                    <div className="table__heading">
+                    <p className="products__table__sno">S NO.</p>
+                    <p className="products__table__product">Product</p>
+                    <p className="products__table__substrate">Substrate</p>
+                    <p className="products__table__description">Description</p>    
+                    </div>
+                {data[Number(location.index)].list.map((x,key)=>
+                <div className="products__table">
+                    <p className="products__table__sno">{x.sno}</p>
+                    <p className="products__table__product">{x.Product}</p>
+                    <p className="products__table__substrate">{x.Substrate}</p>
+                    <p className="products__table__description">{x.Description}</p>
+                </div>
+                        // <tr key={key}>
+                        //     <td>{x.sno}</td>
+                        //     <td>{x.Product}</td>
+                        //     <td>{x.Substrate}</td>
+                        //     <td>{x.Description}</td>
+                        // </tr>
                     )}
-                    </tbody>
-            </Table>
         </div>
     )
 };

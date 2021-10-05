@@ -8,3 +8,31 @@
     text-align: center;
     
 }
+.products__table{
+    margin: 0 20px;
+    display: flex;
+    background-color: #CBE6ED;
+    border-bottom: #E5E5E5 solid 1px;
+    padding: 10px;
+}
+.products__table__sno{
+    flex: 1;
+}
+.products__table__product{
+    flex: 1;
+}
+.products__table__substrate{
+    flex: 1;
+}
+.products__table__description{
+    flex: 3;
+}
+.table__heading{
+    margin: 0 20px;
+    display: flex;
+    border-bottom: solid 1px #233B42;
+    background-color: #9FC1CA;
+    color: #233B42;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}

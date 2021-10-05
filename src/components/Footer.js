@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import image1 from "./../images/FooterLogo.jpg";
 import { Link } from "react-router-dom";
-import Map from "./../pages/ContactUs/Map";
+import FooterMap from "./FooterMap";
 const Footer = () => {
 	return (
 		<footer class="webintern-footer footer">
@@ -103,7 +103,7 @@ const Footer = () => {
 							<div class="empty-space marg-lg-b15"></div>
 
 							<div class="empty-space marg-lg-b30"></div>
-							<Map height="250px" width="200px" />
+							<FooterMap height="250px" width="200px" />
 						</div>
 					</div>
 				</div>
