@@ -47,7 +47,7 @@ const OurProducts = () => {
 				<div className="container">
 					<div className="row">
 						<div className="col-sm">
-							<Link to = {{pathname:'/explaination',index:1} }>
+							<Link to = {{pathname:'/explaination',index:1}}>
 <div className="package">
 							<img src={image1} alt="Wetting Detergent & emulsifiers" />
 							<div className="package__description">
