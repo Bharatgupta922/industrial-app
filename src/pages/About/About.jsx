@@ -6,8 +6,12 @@ import dot from "../../images/dot-background.png";
 import dot2 from "../../images/dot-2.png";
 import mission from "../../images/mission-bg.png";
 import "./About.css";
-import AboutCard from "../../components/AboutCard";
-
+import cf from "../../images/cf.png";
+import pe from "../../images/pe.png";
+import to from "../../images/to.png";
+import innov from "../../images/innovation.png";
+import integrity from "../../images/integrity.png";
+import sustain from "../../images/sustainability.png";
 const About = () => {
 	return (
 		<>
@@ -65,20 +69,18 @@ const About = () => {
 				</div>
 			</div>
 			<div className="row g-0 section-partition">
-				{/* <div className="col-12 mx-auto my-2">
-					<div className="row g-0 d-flex justify-content-center "> */}
 				<div className="col-md-12 col-lg-7 col-12 my-4 py-2">
 					<p className="text-center mt-3 align-middle p-0">
 						<span className="first-line"> We are ASSOCIATED with </span> <br />{" "}
 						<span className="second-line"> METSA</span> <br />{" "}
-						<span className="third-line">for dyeing machineries and Technical Services.</span>
+						<span className="third-line">
+							for dyeing machineries and Technical Services.
+						</span>
 					</p>
 				</div>
 				<div className="col-md-12 col-lg-5 col-12 offset-0 logo-banner d-flex justify-content-center align-items-center ">
 					<img src={banner} alt="logo banner" />
 				</div>
-				{/* </div>
-				</div> */}
 			</div>
 			<div className="container-fluid p-0">
 				<div className="row g-0">
@@ -86,7 +88,8 @@ const About = () => {
 						<h1 className="heading-about">Our Vision</h1>
 					</div>
 				</div>
-				<div className="row g-0 mb-5" style={{transform:"rotate(180deg)"}}>"
+				<div className="row g-0 mb-5" style={{ transform: "rotate(180deg)" }}>
+					"
 					<div className="col-12 text-center">
 						<span className="heading-1">______</span>
 					</div>
@@ -105,31 +108,121 @@ const About = () => {
 					</div>
 				</div>
 				<div className="row g-0">
-					<div className="col-md-8 col-12 px-5" >
+					<div className="col-md-8 col-12 px-5">
 						<div className="dot-background">
 							<img src={dot} alt="" />
 						</div>
 						<span className="heading">OUR VALUES</span>
 					</div>
-					
 				</div>
 				<div className="container g-0">
 					<div class="row g-0 row-cols-1 row-cols-md-3 g-5 valuesCards">
-						<AboutCard />
+						{/* <AboutCard /> */}
+						<div class="col">
+							<div class="card h-100">
+								<div class="card-body">
+									<div className="card-img-wrapper">
+										<img src={cf} class="value-card-img " alt="card img" />
+									</div>
+									<h3 class="card-title">Customer Focus</h3>
+									<p class="card-text">
+										We concentrate our efforts on the individual requirements of
+										our customers and helpthem strengthen their competitive
+										position and performance.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card h-100">
+								<div class="card-body">
+									<div className="card-img-wrapper">
+										<img src={pe} class="value-card-img" alt="card img" />
+									</div>
+									<h3 class="card-title">Personal Engagement</h3>
+									<p class="card-text">
+										We achieve results through individual commitment, continual
+										skills development and entrepreneurial behaviour.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card h-100">
+								<div class="card-body">
+									<div className="card-img-wrapper">
+										<img src={to} class="value-card-img" alt="card img" />
+									</div>
+									<h3 class="card-title">Team Orientation</h3>
+									<p class="card-text">
+										We rely on the strength of teamwork to achieve synergies and
+										realize our full potential.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card h-100">
+								<div class="card-body">
+									<div className="card-img-wrapper">
+										<img src={innov} class="value-card-img" alt="card img" />
+									</div>
+									<h3 class="card-title">Innovation</h3>
+									<p class="card-text">
+										We utilize our extensive know-how and experience throughout
+										the company to continuously bring new services, applications
+										and products to the market.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card h-100">
+								<div class="card-body">
+									<div className="card-img-wrapper">
+										<img
+											src={integrity}
+											class="value-card-img "
+											alt="card img"
+										/>
+									</div>
+									<h3 class="card-title">Integrity</h3>
+									<p class="card-text">
+										We are a trustworthy and respectful partner in all our
+										internal and external relationships.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card h-100">
+								<div class="card-body">
+									<div className="card-img-wrapper">
+										<img src={sustain} class="value-card-img" alt="card img" />
+									</div>
+									<h3 class="card-title">Sustainability</h3>
+									<p class="card-text">
+										We contribute towards sustainable development by finding the
+										best balance between environmental, social, economic and
+										customer needs.
+									</p>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div className="col-md-2 dot2">
+					{/* <div className="col-md-2 dot2">
 						<img src={dot2} alt="" />
-					</div>
+					</div> */}
 				</div>
 				<div className="row g-0 mt-5">
 					<div className="col-md-6 col-12 mx-auto d-flex justify-content-center my-5 mb-0">
 						<h1 className="heading-about">Our Mission</h1>
 					</div>
-					<div className="row g-0 mb-5"  style={{transform:"rotate(180deg)"}}>
-					<div className="col-12 text-center">
-						<span className="heading-1">______</span>
+					<div className="row g-0 mb-5" style={{ transform: "rotate(180deg)" }}>
+						<div className="col-12 text-center">
+							<span className="heading-1">______</span>
+						</div>
 					</div>
-				</div>
 				</div>
 				<div className="row g-0 d-flex align-items-center justify-content-center mt-2 mb-5 pb-3 special-background">
 					<div className="quotation-text col-md-6 col-12 offset-md-1 order-md-0 order-0 d-flex align-items-center">
