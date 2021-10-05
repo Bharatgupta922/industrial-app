@@ -24,6 +24,7 @@ export const Container = styled.div`
 	box-sizing: border-box;
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */
+	/* animation: carousel 20s linear infinite; */
 	&::-webkit-scrollbar {
 		display: none;
 	}
@@ -41,6 +42,10 @@ export const SingleElement = styled.div`
 	scroll-snap-align: start;
 	box-sizing: border-box !important;
 	color: white;
+
+	&:nth-child() {
+		background-color: yellow;
+	}
 
 	@media only screen and (max-width: 650px) {
 		flex-direction: column;
