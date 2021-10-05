@@ -61,11 +61,18 @@ const LandingPage = () => {
 					// style={{margin:"0"}}
 				>
 					<div className="col-3 g-1">
-						<img
+					{/* <div class="wrap">
+					<div class="side-a"> */}
+					<img
 							src={image2}
 							alt="Levelling_agent"
-							className="image_product__2"
+							className="image_product__2 "
 						/>
+					{/* </div>
+					<div class="side-b">
+					</div>
+					</div> */}
+					
 					</div>
 					<div className="col-3 g-1">
 						<img

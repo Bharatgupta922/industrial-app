@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState ,useRef} from "react";
 import "./ContactUs.css";
 import dot1 from "../../images/dot-contact.png";
 import dot2 from "../../images/dot-contact-2.png";
 import bg from "../../images/banner-building.png";
 import formbg from "../../images/form-bg.png";
 import Map from "./Map";
+import emailjs from "emailjs-com";
 const ContactUs = () => {
 	const [address, setAddress] = useState(`#913, 11th Cross, Sangamesh\n
 		 Nilay, Vidhymanya Nagar,\n
@@ -40,6 +41,18 @@ const ContactUs = () => {
 				break;
 		}
 	};
+	const form = useRef();
+	function sendEmail(e){
+		e.preventDefault();
+
+		emailjs.sendForm('service_2j8dmyr', 'template_c39lwso', form.current, 'user_4uxRkJniDN6OcP5qESnOp')
+		  .then((result) => {
+			  console.log(result.text);
+		  }, (error) => {
+			  console.log(error.text);
+		  });
+		e.target.reset()
+	}
 	return (
 		<>
 			<div className="container-fluid my-5 ">
@@ -139,13 +152,14 @@ const ContactUs = () => {
 						<img src={formbg} alt="form bg" />
 					</div>
 					<div className="col-md-5 col-8 mb-3">
-						<form>
+						<form ref={form} onSubmit={sendEmail}>
 							<div class="form-group m-3">
 								<input
 									type="text"
 									class="form-control"
 									id="firstname"
 									placeholder="First Name"
+									name="fname"
 								/>
 							</div>
 							<div class="form-group m-3">
@@ -154,6 +168,7 @@ const ContactUs = () => {
 									class="form-control"
 									id="lastname"
 									placeholder="Last Name"
+									name="lname"
 								/>
 							</div>
 							<div className="form-group m-3">
@@ -162,6 +177,7 @@ const ContactUs = () => {
 									class="form-control"
 									id="email"
 									placeholder="What's your email ?"
+									name="email"
 								/>
 							</div>
 							<div className="form-group m-3">
@@ -170,6 +186,7 @@ const ContactUs = () => {
 									id="exampleFormControlTextarea1"
 									rows="3"
 									placeholder="Your questions ?"
+									name="message"
 								></textarea>
 							</div>
 							<div className="form-group m-3">
